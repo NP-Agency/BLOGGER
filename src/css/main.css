@@ -195,4 +195,92 @@
     border-top: 1px solid #d9d9dd;
     margin: 3rem 0;
   }
+
+}
+
+.cookie-choices-info {
+  background: #17171c !important;
+  border: 1px solid rgb(255 255 255 / 0.12) !important;
+  border-radius: 8px !important;
+  bottom: 1rem !important;
+  box-shadow: none !important;
+  color: rgb(255 255 255 / 0.72) !important;
+  font-family: "Unica77 YourSacralGuide Web", Inter, Arial, ui-sans-serif, system-ui, sans-serif !important;
+  font-size: 0.875rem !important;
+  left: 50% !important;
+  line-height: 1.45 !important;
+  margin: 0 !important;
+  max-width: min(42rem, calc(100vw - 2rem)) !important;
+  padding: 1rem !important;
+  right: auto !important;
+  top: auto !important;
+  transform: translateX(-50%) !important;
+  width: calc(100vw - 2rem) !important;
+  z-index: 999999 !important;
+}
+
+.cookie-choices-text {
+  color: rgb(255 255 255 / 0.72) !important;
+  display: block !important;
+  margin: 0 0 0.875rem !important;
+}
+
+.cookie-choices-buttons {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  gap: 0.625rem !important;
+  justify-content: flex-start !important;
+  margin: 0 !important;
+}
+
+.cookie-choices-button {
+  background: #ffffff !important;
+  border: 1px solid #ffffff !important;
+  border-radius: 9999px !important;
+  color: #17171c !important;
+  cursor: pointer !important;
+  display: inline-flex !important;
+  font-size: 0.875rem !important;
+  font-weight: 500 !important;
+  line-height: 1 !important;
+  margin: 0 !important;
+  padding: 0.75rem 1rem !important;
+  text-decoration: none !important;
+  transition: background-color 150ms ease, border-color 150ms ease, color 150ms ease !important;
+}
+
+.cookie-choices-button:hover {
+  background: #ff7759 !important;
+  border-color: #ff7759 !important;
+  color: #17171c !important;
+}
+
+.cookie-choices-button:first-child {
+  background: transparent !important;
+  border-color: rgb(255 255 255 / 0.24) !important;
+  color: #ffffff !important;
+}
+
+.cookie-choices-button:first-child:hover {
+  background: rgb(255 255 255 / 0.08) !important;
+  border-color: rgb(255 255 255 / 0.42) !important;
+}
+
+@media (min-width: 768px) {
+  .cookie-choices-info {
+    align-items: center !important;
+    display: flex !important;
+    gap: 1rem !important;
+    justify-content: space-between !important;
+    padding: 1rem 1.125rem !important;
+  }
+
+  .cookie-choices-text {
+    margin: 0 !important;
+  }
+
+  .cookie-choices-buttons {
+    flex: 0 0 auto !important;
+    justify-content: flex-end !important;
+  }
 }
