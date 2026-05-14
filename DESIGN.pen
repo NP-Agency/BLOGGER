@@ -1,0 +1,4768 @@
+{
+  "version": "2.11",
+  "children": [
+    {
+      "type": "frame",
+      "id": "E4YfED",
+      "x": 80,
+      "y": 80,
+      "name": "Foundations",
+      "width": 1200,
+      "fill": "$canvas-white",
+      "layout": "vertical",
+      "gap": 24,
+      "padding": 32,
+      "children": [
+        {
+          "type": "text",
+          "id": "eNoWK",
+          "name": "section-title",
+          "fill": "$text-ink",
+          "textGrowth": "fixed-width",
+          "width": "fill_container",
+          "content": "Foundations",
+          "lineHeight": 1,
+          "fontFamily": "$font-display",
+          "fontSize": 48,
+          "fontWeight": "normal",
+          "letterSpacing": -0.48
+        },
+        {
+          "type": "frame",
+          "id": "P5Cqke",
+          "name": "color-token-grid",
+          "width": "fill_container",
+          "gap": 12,
+          "children": [
+            {
+              "type": "frame",
+              "id": "SmPxu",
+              "name": "swatch / near-black",
+              "width": "fill_container",
+              "height": 96,
+              "fill": "$near-black",
+              "cornerRadius": 8,
+              "layout": "vertical",
+              "gap": 8,
+              "padding": 16,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "NUucR",
+                  "name": "token-name",
+                  "fill": "$canvas-white",
+                  "content": "near-black",
+                  "lineHeight": 1.4,
+                  "fontFamily": "$font-mono",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "rFQGC",
+              "name": "swatch / enterprise-green",
+              "width": "fill_container",
+              "height": 96,
+              "fill": "$enterprise-green",
+              "cornerRadius": 8,
+              "layout": "vertical",
+              "gap": 8,
+              "padding": 16,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "NZLkS",
+                  "name": "token-name",
+                  "fill": "$canvas-white",
+                  "content": "enterprise-green",
+                  "lineHeight": 1.4,
+                  "fontFamily": "$font-mono",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "PDqCM",
+              "name": "swatch / dark-navy",
+              "width": "fill_container",
+              "height": 96,
+              "fill": "$dark-navy",
+              "cornerRadius": 8,
+              "layout": "vertical",
+              "gap": 8,
+              "padding": 16,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "vdkDf",
+                  "name": "token-name",
+                  "fill": "$canvas-white",
+                  "content": "dark-navy",
+                  "lineHeight": 1.4,
+                  "fontFamily": "$font-mono",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "VHBZ3",
+              "name": "swatch / coral",
+              "width": "fill_container",
+              "height": 96,
+              "fill": "$coral",
+              "cornerRadius": 8,
+              "layout": "vertical",
+              "gap": 8,
+              "padding": 16,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "ypGpj",
+                  "name": "token-name",
+                  "fill": "$text-ink",
+                  "content": "coral",
+                  "lineHeight": 1.4,
+                  "fontFamily": "$font-mono",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "RIuPU",
+              "name": "swatch / soft-stone",
+              "width": "fill_container",
+              "height": 96,
+              "fill": "$soft-stone",
+              "cornerRadius": 8,
+              "layout": "vertical",
+              "gap": 8,
+              "padding": 16,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "LoEBb",
+                  "name": "token-name",
+                  "fill": "$text-ink",
+                  "content": "soft-stone",
+                  "lineHeight": 1.4,
+                  "fontFamily": "$font-mono",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "rAGbn",
+          "name": "type-scale-sample",
+          "width": "fill_container",
+          "fill": "$canvas-white",
+          "cornerRadius": 8,
+          "stroke": {
+            "align": "inside",
+            "thickness": 1,
+            "fill": "$rule-hairline"
+          },
+          "layout": "vertical",
+          "gap": 12,
+          "padding": 24,
+          "children": [
+            {
+              "type": "text",
+              "id": "PikzG",
+              "name": "type / hero-display",
+              "fill": "$text-ink",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "AI systems, calmly governed.",
+              "lineHeight": 1,
+              "fontFamily": "$font-display",
+              "fontSize": 72,
+              "fontWeight": "normal",
+              "letterSpacing": -1.44
+            },
+            {
+              "type": "text",
+              "id": "l5uIXZ",
+              "name": "type / body-large",
+              "fill": "$text-ink",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Restrained editorial whitespace, tight display type, thin rules, and product proof carried by dark fields and rounded media.",
+              "lineHeight": 1.4,
+              "fontFamily": "$font-body",
+              "fontSize": 18,
+              "fontWeight": "normal"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "HVxWS",
+      "x": 80,
+      "y": 540,
+      "name": "Buttons",
+      "width": 1200,
+      "fill": "$canvas-white",
+      "layout": "vertical",
+      "gap": 24,
+      "padding": 32,
+      "children": [
+        {
+          "type": "text",
+          "id": "Gtbsb",
+          "name": "section-title",
+          "fill": "$text-ink",
+          "textGrowth": "fixed-width",
+          "width": "fill_container",
+          "content": "Buttons",
+          "lineHeight": 1,
+          "fontFamily": "$font-display",
+          "fontSize": 48,
+          "fontWeight": "normal",
+          "letterSpacing": -0.48
+        },
+        {
+          "type": "frame",
+          "id": "k2p4t",
+          "name": "button-components-row",
+          "width": "fill_container",
+          "gap": 24,
+          "children": [
+            {
+              "type": "frame",
+              "id": "pCd15",
+              "name": "component/button-primary / near-black",
+              "reusable": true,
+              "fill": "$near-black",
+              "cornerRadius": 32,
+              "gap": 8,
+              "padding": [
+                12,
+                24
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "ovf6z",
+                  "name": "label",
+                  "fill": "$canvas-white",
+                  "content": "Request a demo",
+                  "lineHeight": 1.71,
+                  "fontFamily": "$font-body",
+                  "fontSize": 14,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "tizxz",
+              "name": "component/button-primary / white-on-dark",
+              "reusable": true,
+              "fill": "$canvas-white",
+              "cornerRadius": 32,
+              "stroke": {
+                "align": "inside",
+                "thickness": 1,
+                "fill": "#ffffff33"
+              },
+              "gap": 8,
+              "padding": [
+                12,
+                24
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "NF0RY",
+                  "name": "label",
+                  "fill": "$near-black",
+                  "content": "Submit",
+                  "lineHeight": 1.71,
+                  "fontFamily": "$font-body",
+                  "fontSize": 14,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "ZAw3X",
+              "name": "component/button-secondary",
+              "reusable": true,
+              "gap": 8,
+              "padding": [
+                8,
+                0
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "i1KVrd",
+                  "name": "underlined-link-label",
+                  "fill": "$text-ink",
+                  "content": "Explore products",
+                  "lineHeight": 1.5,
+                  "fontFamily": "$font-body",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "icon_font",
+                  "id": "m3HNpG",
+                  "name": "arrow-right",
+                  "width": 18,
+                  "height": 18,
+                  "iconFontName": "arrow-right",
+                  "iconFontFamily": "lucide",
+                  "fill": "$text-ink"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "P0gr2p",
+              "name": "component/button-pill-outline / inactive",
+              "reusable": true,
+              "fill": "#ffffff00",
+              "cornerRadius": 30,
+              "stroke": {
+                "align": "inside",
+                "thickness": 1,
+                "fill": "$text-ink"
+              },
+              "gap": 8,
+              "padding": [
+                10,
+                22
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "rHrxl",
+                  "name": "label",
+                  "fill": "$text-ink",
+                  "content": "Research",
+                  "lineHeight": 1.4,
+                  "fontFamily": "$font-body",
+                  "fontSize": 18,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "c3zAn",
+              "name": "component/button-pill-outline / active-coral",
+              "reusable": true,
+              "fill": "$coral",
+              "cornerRadius": 30,
+              "stroke": {
+                "align": "inside",
+                "thickness": 1,
+                "fill": "$coral"
+              },
+              "gap": 8,
+              "padding": [
+                10,
+                22
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "L4iWE",
+                  "name": "label",
+                  "fill": "$text-ink",
+                  "content": "Agents",
+                  "lineHeight": 1.4,
+                  "fontFamily": "$font-body",
+                  "fontSize": 18,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "h4cWN",
+      "x": 80,
+      "y": 760,
+      "name": "Navigation",
+      "width": 1200,
+      "fill": "$canvas-white",
+      "layout": "vertical",
+      "gap": 24,
+      "padding": 32,
+      "children": [
+        {
+          "type": "text",
+          "id": "X4IQ3d",
+          "name": "section-title",
+          "fill": "$text-ink",
+          "textGrowth": "fixed-width",
+          "width": "fill_container",
+          "content": "Navigation",
+          "lineHeight": 1,
+          "fontFamily": "$font-display",
+          "fontSize": 48,
+          "fontWeight": "normal",
+          "letterSpacing": -0.48
+        },
+        {
+          "type": "frame",
+          "id": "LaqD7",
+          "name": "component/announcement-bar",
+          "reusable": true,
+          "width": "fill_container",
+          "height": 36,
+          "fill": "$brand-black",
+          "padding": [
+            0,
+            24
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "u19xY",
+              "name": "left-balance-spacer",
+              "width": 24,
+              "height": 24,
+              "fill": "#00000000"
+            },
+            {
+              "type": "frame",
+              "id": "u8sLw",
+              "name": "center-message",
+              "gap": 6,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "x9iAI",
+                  "name": "message",
+                  "fill": "$canvas-white",
+                  "content": "New guide: governing multi-agent workflows.",
+                  "lineHeight": 1.4,
+                  "fontFamily": "$font-body",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "XNRX5",
+                  "name": "learn-more-link",
+                  "fill": "$canvas-white",
+                  "content": "Learn more",
+                  "lineHeight": 1.4,
+                  "fontFamily": "$font-body",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "icon_font",
+              "id": "I3jcQJ",
+              "name": "close-control",
+              "width": 18,
+              "height": 18,
+              "iconFontName": "x",
+              "iconFontFamily": "lucide",
+              "fill": "$canvas-white"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "YZchP",
+          "name": "component/navigation-menu / desktop",
+          "reusable": true,
+          "width": "fill_container",
+          "height": 72,
+          "fill": "$canvas-white",
+          "stroke": {
+            "align": "inside",
+            "thickness": {
+              "bottom": 1
+            },
+            "fill": "$rule-border-light"
+          },
+          "padding": [
+            0,
+            24
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "FEIWf",
+              "name": "brand-lockup",
+              "width": 220,
+              "gap": 10,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "d1bizp",
+                  "name": "brand-mark",
+                  "width": 28,
+                  "height": 28,
+                  "fill": "$near-black",
+                  "cornerRadius": 4,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "K3gb1f",
+                      "name": "brand-glyph",
+                      "fill": "$canvas-white",
+                      "content": "Y",
+                      "lineHeight": 1.4,
+                      "fontFamily": "$font-body",
+                      "fontSize": 14,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "kB3qW",
+                  "name": "brand-name",
+                  "fill": "$text-ink",
+                  "content": "YourSacralGuide",
+                  "lineHeight": 1.5,
+                  "fontFamily": "$font-body",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "PiOmK",
+              "name": "center-navigation-links",
+              "gap": 32,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "qACW5",
+                  "name": "nav-link / products",
+                  "gap": 6,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "gNZXY",
+                      "name": "label",
+                      "fill": "$text-ink",
+                      "content": "Products",
+                      "lineHeight": 1.4,
+                      "fontFamily": "$font-body",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "icon_font",
+                      "id": "Yh0Ec",
+                      "name": "chevron-down",
+                      "width": 14,
+                      "height": 14,
+                      "iconFontName": "chevron-down",
+                      "iconFontFamily": "lucide",
+                      "fill": "$text-ink"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "gkzjP",
+                  "name": "nav-link / research",
+                  "fill": "$text-ink",
+                  "content": "Research",
+                  "lineHeight": 1.4,
+                  "fontFamily": "$font-body",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "vQACI",
+                  "name": "nav-link / blog",
+                  "fill": "$text-ink",
+                  "content": "Blog",
+                  "lineHeight": 1.4,
+                  "fontFamily": "$font-body",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "If8Ap",
+                  "name": "nav-link / company",
+                  "fill": "$text-ink",
+                  "content": "Company",
+                  "lineHeight": 1.4,
+                  "fontFamily": "$font-body",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "UTbg7",
+              "name": "right-actions",
+              "width": 220,
+              "gap": 18,
+              "justifyContent": "end",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "y4gsQg",
+                  "name": "sign-in-link",
+                  "fill": "$text-ink",
+                  "content": "Sign in",
+                  "lineHeight": 1.4,
+                  "fontFamily": "$font-body",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "id": "aKSMB",
+                  "type": "ref",
+                  "ref": "pCd15",
+                  "name": "request-demo-button"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "fHllG",
+          "name": "component/navigation-menu / mobile",
+          "reusable": true,
+          "width": 360,
+          "height": 64,
+          "fill": "$canvas-white",
+          "stroke": {
+            "align": "inside",
+            "thickness": {
+              "bottom": 1
+            },
+            "fill": "$rule-border-light"
+          },
+          "padding": [
+            0,
+            16
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "ZaqJy",
+              "name": "brand-lockup",
+              "gap": 8,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "DrA6h",
+                  "name": "brand-mark",
+                  "width": 26,
+                  "height": 26,
+                  "fill": "$near-black",
+                  "cornerRadius": 4,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "fqXgV",
+                      "name": "brand-glyph",
+                      "fill": "$canvas-white",
+                      "content": "Y",
+                      "lineHeight": 1.4,
+                      "fontFamily": "$font-body",
+                      "fontSize": 14,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "U0y2z",
+                  "name": "brand-name",
+                  "fill": "$text-ink",
+                  "content": "YSG",
+                  "lineHeight": 1.5,
+                  "fontFamily": "$font-body",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "aAS68",
+              "name": "menu-button",
+              "width": 40,
+              "height": 40,
+              "fill": "$canvas-white",
+              "cornerRadius": 9999,
+              "stroke": {
+                "align": "inside",
+                "thickness": 1,
+                "fill": "$rule-border-light"
+              },
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "L7LFbH",
+                  "name": "menu-icon",
+                  "width": 20,
+                  "height": 20,
+                  "iconFontName": "menu",
+                  "iconFontFamily": "lucide",
+                  "fill": "$text-ink"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "BzSiI",
+          "name": "component/mega-menu / products-open",
+          "reusable": true,
+          "width": "fill_container",
+          "fill": "$canvas-white",
+          "stroke": {
+            "align": "inside",
+            "thickness": 1,
+            "fill": "$rule-border-light"
+          },
+          "gap": 32,
+          "padding": 32,
+          "children": [
+            {
+              "type": "frame",
+              "id": "BcL2l",
+              "name": "featured-product-panel",
+              "width": 360,
+              "fill": "$enterprise-green",
+              "cornerRadius": 8,
+              "layout": "vertical",
+              "gap": 18,
+              "padding": 24,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "XldeR",
+                  "name": "mono-label",
+                  "fill": "#ffffffb3",
+                  "content": "PRODUCTS",
+                  "lineHeight": 1.4,
+                  "fontFamily": "$font-mono",
+                  "fontSize": 14,
+                  "fontWeight": "normal",
+                  "letterSpacing": 0.28
+                },
+                {
+                  "type": "text",
+                  "id": "X9n6H",
+                  "name": "heading",
+                  "fill": "$canvas-white",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Controlled agent infrastructure",
+                  "lineHeight": 1.2,
+                  "fontFamily": "$font-body",
+                  "fontSize": 32,
+                  "fontWeight": "normal",
+                  "letterSpacing": -0.32
+                },
+                {
+                  "type": "text",
+                  "id": "G0jVQG",
+                  "name": "body",
+                  "fill": "#ffffffbf",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Explore systems for routing, reviewing, and governing autonomous work.",
+                  "lineHeight": 1.5,
+                  "fontFamily": "$font-body",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "QORxA",
+                  "name": "text-link",
+                  "fill": "$canvas-white",
+                  "content": "View products",
+                  "lineHeight": 1.5,
+                  "fontFamily": "$font-body",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "uoMiE",
+              "name": "menu-columns",
+              "width": "fill_container",
+              "gap": 40,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "F5y2hb",
+                  "name": "column / platform",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "d72dnq",
+                      "name": "column-label",
+                      "fill": "$text-muted",
+                      "content": "PLATFORM",
+                      "lineHeight": 1.4,
+                      "fontFamily": "$font-mono",
+                      "fontSize": 14,
+                      "fontWeight": "normal",
+                      "letterSpacing": 0.28
+                    },
+                    {
+                      "type": "frame",
+                      "id": "zbd1z",
+                      "name": "mega-item / command",
+                      "width": "fill_container",
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": {
+                          "bottom": 1
+                        },
+                        "fill": "$rule-hairline"
+                      },
+                      "layout": "vertical",
+                      "gap": 4,
+                      "padding": [
+                        0,
+                        0,
+                        16,
+                        0
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "D28q8T",
+                          "name": "title",
+                          "fill": "$text-ink",
+                          "content": "Command",
+                          "lineHeight": 1.4,
+                          "fontFamily": "$font-body",
+                          "fontSize": 18,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "P1o6yn",
+                          "name": "description",
+                          "fill": "$text-slate",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Operate supervised agent workflows.",
+                          "lineHeight": 1.4,
+                          "fontFamily": "$font-body",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "rW0Pn",
+                      "name": "mega-item / north",
+                      "width": "fill_container",
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": {
+                          "bottom": 1
+                        },
+                        "fill": "$rule-hairline"
+                      },
+                      "layout": "vertical",
+                      "gap": 4,
+                      "padding": [
+                        0,
+                        0,
+                        16,
+                        0
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "aKebz",
+                          "name": "title",
+                          "fill": "$text-ink",
+                          "content": "North",
+                          "lineHeight": 1.4,
+                          "fontFamily": "$font-body",
+                          "fontSize": 18,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "bOmvn",
+                          "name": "description",
+                          "fill": "$text-slate",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Map product and policy decisions.",
+                          "lineHeight": 1.4,
+                          "fontFamily": "$font-body",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "O0i51U",
+                  "name": "column / editorial",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "m3IDE",
+                      "name": "column-label",
+                      "fill": "$text-muted",
+                      "content": "EDITORIAL",
+                      "lineHeight": 1.4,
+                      "fontFamily": "$font-mono",
+                      "fontSize": 14,
+                      "fontWeight": "normal",
+                      "letterSpacing": 0.28
+                    },
+                    {
+                      "type": "frame",
+                      "id": "JRE3r",
+                      "name": "mega-item / research",
+                      "width": "fill_container",
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": {
+                          "bottom": 1
+                        },
+                        "fill": "$rule-hairline"
+                      },
+                      "layout": "vertical",
+                      "gap": 4,
+                      "padding": [
+                        0,
+                        0,
+                        16,
+                        0
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "I7Kb1G",
+                          "name": "title",
+                          "fill": "$text-ink",
+                          "content": "Research library",
+                          "lineHeight": 1.4,
+                          "fontFamily": "$font-body",
+                          "fontSize": 18,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "c9CnX",
+                          "name": "description",
+                          "fill": "$text-slate",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Papers, notes, and evaluation methods.",
+                          "lineHeight": 1.4,
+                          "fontFamily": "$font-body",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "P1KEik",
+                      "name": "mega-item / blog",
+                      "width": "fill_container",
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": {
+                          "bottom": 1
+                        },
+                        "fill": "$rule-hairline"
+                      },
+                      "layout": "vertical",
+                      "gap": 4,
+                      "padding": [
+                        0,
+                        0,
+                        16,
+                        0
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "G4cth",
+                          "name": "title",
+                          "fill": "$text-ink",
+                          "content": "Blog",
+                          "lineHeight": 1.4,
+                          "fontFamily": "$font-body",
+                          "fontSize": 18,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "E29eF",
+                          "name": "description",
+                          "fill": "$text-slate",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Publishing-system clarity for updates.",
+                          "lineHeight": 1.4,
+                          "fontFamily": "$font-body",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "cIz1W",
+      "x": 80,
+      "y": 1540,
+      "name": "Cards",
+      "width": 1200,
+      "fill": "$canvas-white",
+      "layout": "vertical",
+      "gap": 24,
+      "padding": 32,
+      "children": [
+        {
+          "type": "text",
+          "id": "S17oQR",
+          "name": "section-title",
+          "fill": "$text-ink",
+          "textGrowth": "fixed-width",
+          "width": "fill_container",
+          "content": "Cards",
+          "lineHeight": 1,
+          "fontFamily": "$font-display",
+          "fontSize": 48,
+          "fontWeight": "normal",
+          "letterSpacing": -0.48
+        },
+        {
+          "type": "frame",
+          "id": "ULVo3",
+          "name": "media-and-console-row",
+          "width": "fill_container",
+          "gap": 24,
+          "children": [
+            {
+              "type": "frame",
+              "id": "oybLb",
+              "name": "component/hero-photo-card / desktop",
+              "reusable": true,
+              "metadata": {
+                "type": "unsplash",
+                "username": "priscilladupreez",
+                "link": "https://unsplash.com/@priscilladupreez",
+                "author": "Priscilla Du Preez 🇨🇦"
+              },
+              "clip": true,
+              "width": "fill_container",
+              "height": 420,
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "https://images.unsplash.com/photo-1579389083078-4e7018379f7e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg3NTEyMjN8&ixlib=rb-4.1.0&q=80&w=1080",
+                "mode": "fill"
+              },
+              "cornerRadius": 22,
+              "layout": "none",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "l4pRw",
+                  "x": 32,
+                  "y": 210,
+                  "name": "agent-console-overlay",
+                  "width": 440,
+                  "fill": "$near-black",
+                  "cornerRadius": 8,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#ffffff22"
+                  },
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": 20,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "W9AX6",
+                      "name": "console-header",
+                      "width": "fill_container",
+                      "justifyContent": "space_between",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "GZSPq",
+                          "name": "agent-name",
+                          "fill": "$canvas-white",
+                          "content": "Policy Review Agent",
+                          "lineHeight": 1.4,
+                          "fontFamily": "$font-mono",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "MK90O",
+                          "name": "status-chip",
+                          "fill": "$enterprise-green",
+                          "cornerRadius": 9999,
+                          "gap": 6,
+                          "padding": [
+                            4,
+                            10
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "ellipse",
+                              "id": "IdAjP",
+                              "name": "status-dot",
+                              "fill": "$canvas-white",
+                              "width": 6,
+                              "height": 6
+                            },
+                            {
+                              "type": "text",
+                              "id": "dbnm7",
+                              "name": "status-label",
+                              "fill": "$canvas-white",
+                              "content": "live",
+                              "lineHeight": 1.4,
+                              "fontFamily": "$font-body",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "mZ1Pd",
+                      "name": "prompt-field",
+                      "width": "fill_container",
+                      "fill": "#ffffff10",
+                      "cornerRadius": 8,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1,
+                        "fill": "#ffffff24"
+                      },
+                      "layout": "vertical",
+                      "gap": 6,
+                      "padding": 14,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "U3nByn",
+                          "name": "prompt-label",
+                          "fill": "$text-muted",
+                          "content": "PROMPT",
+                          "lineHeight": 1.4,
+                          "fontFamily": "$font-mono",
+                          "fontSize": 12,
+                          "fontWeight": "normal",
+                          "letterSpacing": 0.28
+                        },
+                        {
+                          "type": "text",
+                          "id": "IC7Cb",
+                          "name": "prompt-text",
+                          "fill": "$canvas-white",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Summarize obligations and flag approval gaps.",
+                          "lineHeight": 1.4,
+                          "fontFamily": "$font-body",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "pNA5q",
+              "name": "component/agent-console-card",
+              "reusable": true,
+              "width": 420,
+              "fill": "$near-black",
+              "cornerRadius": 8,
+              "stroke": {
+                "align": "inside",
+                "thickness": 1,
+                "fill": "#ffffff22"
+              },
+              "layout": "vertical",
+              "gap": 16,
+              "padding": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "mX5DP",
+                  "name": "console-header",
+                  "width": "fill_container",
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "lz7Ru",
+                      "name": "title",
+                      "fill": "$canvas-white",
+                      "content": "Research Agent",
+                      "lineHeight": 1.3,
+                      "fontFamily": "$font-body",
+                      "fontSize": 24,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "WiULG",
+                      "name": "status-chip",
+                      "fill": "#ffffff12",
+                      "cornerRadius": 9999,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1,
+                        "fill": "#ffffff22"
+                      },
+                      "gap": 6,
+                      "padding": [
+                        5,
+                        10
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "F8WV1G",
+                          "name": "label",
+                          "fill": "$canvas-white",
+                          "content": "running",
+                          "lineHeight": 1.4,
+                          "fontFamily": "$font-mono",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "w0OTug",
+                  "name": "integration-badges",
+                  "width": "fill_container",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "KuRJL",
+                      "name": "badge / drive",
+                      "fill": "#ffffff10",
+                      "cornerRadius": 9999,
+                      "gap": 6,
+                      "padding": [
+                        6,
+                        10
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "icon_font",
+                          "id": "nCCe4",
+                          "name": "folder-icon",
+                          "width": 14,
+                          "height": 14,
+                          "iconFontName": "folder",
+                          "iconFontFamily": "lucide",
+                          "fill": "$canvas-white"
+                        },
+                        {
+                          "type": "text",
+                          "id": "ifgFv",
+                          "name": "label",
+                          "fill": "$canvas-white",
+                          "content": "Drive",
+                          "lineHeight": 1.4,
+                          "fontFamily": "$font-body",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "aQTf6",
+                      "name": "badge / slack",
+                      "fill": "#ffffff10",
+                      "cornerRadius": 9999,
+                      "gap": 6,
+                      "padding": [
+                        6,
+                        10
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "pGgKQ",
+                          "name": "label",
+                          "fill": "$canvas-white",
+                          "content": "Slack",
+                          "lineHeight": 1.4,
+                          "fontFamily": "$font-body",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "d0hue",
+                  "name": "generated-response-card",
+                  "width": "fill_container",
+                  "fill": "#ffffff",
+                  "cornerRadius": 8,
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "NHk0t",
+                      "name": "response-title",
+                      "fill": "$text-muted",
+                      "content": "Generated response",
+                      "lineHeight": 1.4,
+                      "fontFamily": "$font-mono",
+                      "fontSize": 12,
+                      "fontWeight": "normal",
+                      "letterSpacing": 0.28
+                    },
+                    {
+                      "type": "text",
+                      "id": "hfbxj",
+                      "name": "response-copy",
+                      "fill": "$text-ink",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Three policy gaps require legal approval before customer deployment.",
+                      "lineHeight": 1.4,
+                      "fontFamily": "$font-body",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "PwtfC",
+          "name": "component/trust-logo-strip",
+          "reusable": true,
+          "width": "fill_container",
+          "fill": "$canvas-white",
+          "layout": "vertical",
+          "gap": 32,
+          "padding": [
+            40,
+            0
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "mwbNF",
+              "name": "intro-copy",
+              "fill": "$text-muted",
+              "textGrowth": "fixed-width",
+              "width": 620,
+              "content": "Trusted by teams building controlled AI infrastructure",
+              "lineHeight": 1.5,
+              "textAlign": "center",
+              "fontFamily": "$font-body",
+              "fontSize": 16,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "k8PU4",
+              "name": "monochrome-logo-row",
+              "width": "fill_container",
+              "gap": 60,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "uCAKd",
+                  "name": "logo / NORTHSTAR",
+                  "fill": "$text-ink",
+                  "content": "NORTHSTAR",
+                  "lineHeight": 1.4,
+                  "fontFamily": "$font-mono",
+                  "fontSize": 18,
+                  "fontWeight": "normal",
+                  "letterSpacing": 0.28
+                },
+                {
+                  "type": "text",
+                  "id": "Pn4au",
+                  "name": "logo / AXIS",
+                  "fill": "$text-ink",
+                  "content": "AXIS LABS",
+                  "lineHeight": 1.4,
+                  "fontFamily": "$font-mono",
+                  "fontSize": 18,
+                  "fontWeight": "normal",
+                  "letterSpacing": 0.28
+                },
+                {
+                  "type": "text",
+                  "id": "dQJ35",
+                  "name": "logo / HELIX",
+                  "fill": "$text-ink",
+                  "content": "HELIX",
+                  "lineHeight": 1.4,
+                  "fontFamily": "$font-mono",
+                  "fontSize": 18,
+                  "fontWeight": "normal",
+                  "letterSpacing": 0.28
+                },
+                {
+                  "type": "text",
+                  "id": "Q2PIzl",
+                  "name": "logo / VAULT",
+                  "fill": "$text-ink",
+                  "content": "VAULT",
+                  "lineHeight": 1.4,
+                  "fontFamily": "$font-mono",
+                  "fontSize": 18,
+                  "fontWeight": "normal",
+                  "letterSpacing": 0.28
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "j6fr76",
+          "name": "component/capability-card",
+          "reusable": true,
+          "width": 360,
+          "fill": "$canvas-white",
+          "stroke": {
+            "align": "inside",
+            "thickness": {
+              "top": 1
+            },
+            "fill": "$rule-hairline"
+          },
+          "layout": "vertical",
+          "gap": 20,
+          "padding": [
+            24,
+            0,
+            0,
+            0
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "Z9lOoT",
+              "name": "thin-line-illustration",
+              "width": 64,
+              "height": 64,
+              "fill": "#ffffff00",
+              "cornerRadius": 8,
+              "stroke": {
+                "align": "inside",
+                "thickness": 1,
+                "fill": "$rule-hairline"
+              },
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "icon_font",
+                  "id": "zF0mv",
+                  "name": "illustration-icon",
+                  "width": 28,
+                  "height": 28,
+                  "iconFontName": "network",
+                  "iconFontFamily": "lucide",
+                  "fill": "$text-ink"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "A0pZD",
+              "name": "heading",
+              "fill": "$text-ink",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Route agent work safely",
+              "lineHeight": 1.3,
+              "fontFamily": "$font-body",
+              "fontSize": 24,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "ofegt",
+              "name": "body",
+              "fill": "$text-ink",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Design review paths, handoffs, and human approvals without hiding the system state.",
+              "lineHeight": 1.5,
+              "fontFamily": "$font-body",
+              "fontSize": 16,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "nKQYW",
+              "name": "text-link",
+              "fill": "$text-ink",
+              "content": "Explore orchestration",
+              "lineHeight": 1.5,
+              "fontFamily": "$font-body",
+              "fontSize": 16,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "b2WSb",
+          "name": "component/product-card",
+          "reusable": true,
+          "width": 360,
+          "fill": "$soft-stone",
+          "cornerRadius": 8,
+          "layout": "vertical",
+          "gap": 20,
+          "padding": 28,
+          "children": [
+            {
+              "type": "text",
+              "id": "K0TNw",
+              "name": "mono-label",
+              "fill": "$text-slate",
+              "content": "COMMAND",
+              "lineHeight": 1.4,
+              "fontFamily": "$font-mono",
+              "fontSize": 14,
+              "fontWeight": "normal",
+              "letterSpacing": 0.28
+            },
+            {
+              "type": "text",
+              "id": "iEKaA",
+              "name": "heading",
+              "fill": "$text-ink",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Deploy supervised agents",
+              "lineHeight": 1.2,
+              "fontFamily": "$font-body",
+              "fontSize": 32,
+              "fontWeight": "normal",
+              "letterSpacing": -0.32
+            },
+            {
+              "type": "text",
+              "id": "jj6cZ",
+              "name": "body",
+              "fill": "$text-ink",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "A controlled environment for routing prompts, reviewing outputs, and tracing decisions.",
+              "lineHeight": 1.5,
+              "fontFamily": "$font-body",
+              "fontSize": 16,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "rectangle",
+              "id": "aa0Ss",
+              "name": "divider-rule",
+              "fill": "$rule-hairline",
+              "width": "fill_container",
+              "height": 1
+            },
+            {
+              "type": "frame",
+              "id": "B4pI9U",
+              "name": "checkmark-bullets",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 10,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "IGPJp",
+                  "name": "bullet-row",
+                  "width": "fill_container",
+                  "gap": 10,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "uydN2",
+                      "name": "check-icon",
+                      "width": 16,
+                      "height": 16,
+                      "iconFontName": "check",
+                      "iconFontFamily": "lucide",
+                      "fill": "$text-ink"
+                    },
+                    {
+                      "type": "text",
+                      "id": "wtnJd",
+                      "name": "bullet-copy",
+                      "fill": "$text-ink",
+                      "content": "Approval queues",
+                      "lineHeight": 1.4,
+                      "fontFamily": "$font-body",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "wWsVT",
+                  "name": "bullet-row",
+                  "width": "fill_container",
+                  "gap": 10,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "twScS",
+                      "name": "check-icon",
+                      "width": 16,
+                      "height": 16,
+                      "iconFontName": "check",
+                      "iconFontFamily": "lucide",
+                      "fill": "$text-ink"
+                    },
+                    {
+                      "type": "text",
+                      "id": "pzpJ8",
+                      "name": "bullet-copy",
+                      "fill": "$text-ink",
+                      "content": "Audit-ready logs",
+                      "lineHeight": 1.4,
+                      "fontFamily": "$font-body",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "F8iZ2",
+      "x": 1320,
+      "y": 80,
+      "name": "CTAs",
+      "width": 1200,
+      "fill": "$canvas-white",
+      "layout": "vertical",
+      "gap": 24,
+      "padding": 32,
+      "children": [
+        {
+          "type": "text",
+          "id": "VAdqH",
+          "name": "section-title",
+          "fill": "$text-ink",
+          "textGrowth": "fixed-width",
+          "width": "fill_container",
+          "content": "CTAs",
+          "lineHeight": 1,
+          "fontFamily": "$font-display",
+          "fontSize": 48,
+          "fontWeight": "normal",
+          "letterSpacing": -0.48
+        },
+        {
+          "type": "frame",
+          "id": "MLdG6",
+          "name": "component/dark-feature-band",
+          "reusable": true,
+          "width": "fill_container",
+          "fill": "$enterprise-green",
+          "layout": "vertical",
+          "gap": 36,
+          "padding": 48,
+          "children": [
+            {
+              "type": "frame",
+              "id": "XzMJq",
+              "name": "band-header",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "opodz",
+                  "name": "mono-label",
+                  "fill": "#ffffffb3",
+                  "content": "CONTROL PLANE",
+                  "lineHeight": 1.4,
+                  "fontFamily": "$font-mono",
+                  "fontSize": 14,
+                  "fontWeight": "normal",
+                  "letterSpacing": 0.28
+                },
+                {
+                  "type": "text",
+                  "id": "H1mPW",
+                  "name": "heading",
+                  "fill": "$canvas-white",
+                  "textGrowth": "fixed-width",
+                  "width": 720,
+                  "content": "Keep agent work legible from prompt to approval.",
+                  "lineHeight": 1.2,
+                  "fontFamily": "$font-body",
+                  "fontSize": 48,
+                  "fontWeight": "normal",
+                  "letterSpacing": -0.48
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "GEMn7",
+              "name": "translucent-feature-grid",
+              "width": "fill_container",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "x2lto",
+                  "name": "feature-card / approvals",
+                  "width": "fill_container",
+                  "fill": "#ffffff0d",
+                  "cornerRadius": 8,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#ffffff24"
+                  },
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": 20,
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "aZT9f",
+                      "name": "thin-line-icon",
+                      "width": 28,
+                      "height": 28,
+                      "iconFontName": "shield-check",
+                      "iconFontFamily": "lucide",
+                      "fill": "$canvas-white"
+                    },
+                    {
+                      "type": "text",
+                      "id": "REbr1",
+                      "name": "heading",
+                      "fill": "$canvas-white",
+                      "content": "Approvals",
+                      "lineHeight": 1.3,
+                      "fontFamily": "$font-body",
+                      "fontSize": 24,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "M6t10",
+                      "name": "body",
+                      "fill": "#ffffffbf",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Route sensitive outputs to the right human reviewer.",
+                      "lineHeight": 1.4,
+                      "fontFamily": "$font-body",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "aIjr7",
+                  "name": "feature-card / traces",
+                  "width": "fill_container",
+                  "fill": "#ffffff0d",
+                  "cornerRadius": 8,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#ffffff24"
+                  },
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": 20,
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "Aaw7F",
+                      "name": "thin-line-icon",
+                      "width": 28,
+                      "height": 28,
+                      "iconFontName": "list-checks",
+                      "iconFontFamily": "lucide",
+                      "fill": "$canvas-white"
+                    },
+                    {
+                      "type": "text",
+                      "id": "kPfTv",
+                      "name": "heading",
+                      "fill": "$canvas-white",
+                      "content": "Traces",
+                      "lineHeight": 1.3,
+                      "fontFamily": "$font-body",
+                      "fontSize": 24,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "ZJEMZ",
+                      "name": "body",
+                      "fill": "#ffffffbf",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Preserve decisions, tool calls, and handoffs for audit review.",
+                      "lineHeight": 1.4,
+                      "fontFamily": "$font-body",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "DAyV9",
+                  "name": "feature-card / policies",
+                  "width": "fill_container",
+                  "fill": "#ffffff0d",
+                  "cornerRadius": 8,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "#ffffff24"
+                  },
+                  "layout": "vertical",
+                  "gap": 14,
+                  "padding": 20,
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "yfbqQ",
+                      "name": "thin-line-icon",
+                      "width": 28,
+                      "height": 28,
+                      "iconFontName": "workflow",
+                      "iconFontFamily": "lucide",
+                      "fill": "$canvas-white"
+                    },
+                    {
+                      "type": "text",
+                      "id": "cEidD",
+                      "name": "heading",
+                      "fill": "$canvas-white",
+                      "content": "Policies",
+                      "lineHeight": 1.3,
+                      "fontFamily": "$font-body",
+                      "fontSize": 24,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "eke1A",
+                      "name": "body",
+                      "fill": "#ffffffbf",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Apply system rules without turning the interface into decoration.",
+                      "lineHeight": 1.4,
+                      "fontFamily": "$font-body",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "DKgKn",
+          "name": "component/hero-photo-card / mobile-stacked",
+          "reusable": true,
+          "width": 360,
+          "fill": "$canvas-white",
+          "layout": "vertical",
+          "gap": 12,
+          "children": [
+            {
+              "type": "frame",
+              "id": "UwLZ3",
+              "name": "rounded-photo",
+              "metadata": {
+                "type": "unsplash",
+                "username": "innur",
+                "link": "https://unsplash.com/@innur",
+                "author": "Indrek Gutmann"
+              },
+              "clip": true,
+              "width": "fill_container",
+              "height": 260,
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "https://images.unsplash.com/photo-1739193670471-efc5d5a81886?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg3NTEzNjF8&ixlib=rb-4.1.0&q=80&w=1080",
+                "mode": "fill"
+              },
+              "cornerRadius": 22,
+              "layout": "none"
+            },
+            {
+              "type": "frame",
+              "id": "uoRMy",
+              "name": "stacked-agent-console",
+              "width": "fill_container",
+              "fill": "$near-black",
+              "cornerRadius": 8,
+              "layout": "vertical",
+              "gap": 10,
+              "padding": 16,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "W9AlIf",
+                  "name": "agent-name",
+                  "fill": "$canvas-white",
+                  "content": "Review Agent",
+                  "lineHeight": 1.4,
+                  "fontFamily": "$font-mono",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "F0GPL9",
+                  "name": "response-copy",
+                  "fill": "#ffffffbf",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Approval required before publication.",
+                  "lineHeight": 1.4,
+                  "fontFamily": "$font-body",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "plIEj",
+      "x": 1320,
+      "y": 1100,
+      "name": "Editorial / Blog",
+      "width": 1200,
+      "fill": "$canvas-white",
+      "layout": "vertical",
+      "gap": 24,
+      "padding": 32,
+      "children": [
+        {
+          "type": "text",
+          "id": "yPqdl",
+          "name": "section-title",
+          "fill": "$text-ink",
+          "textGrowth": "fixed-width",
+          "width": "fill_container",
+          "content": "Editorial / Blog",
+          "lineHeight": 1,
+          "fontFamily": "$font-display",
+          "fontSize": 48,
+          "fontWeight": "normal",
+          "letterSpacing": -0.48
+        },
+        {
+          "type": "frame",
+          "id": "tJJkr",
+          "name": "blog-filter-chip-variants",
+          "width": "fill_container",
+          "gap": 16,
+          "children": [
+            {
+              "type": "frame",
+              "id": "z9CCam",
+              "name": "component/blog-filter-chip / inactive",
+              "reusable": true,
+              "fill": "#fff7f4",
+              "cornerRadius": 30,
+              "stroke": {
+                "align": "inside",
+                "thickness": 1,
+                "fill": "$soft-coral"
+              },
+              "gap": 8,
+              "padding": [
+                12,
+                24
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "V57Mjp",
+                  "name": "label",
+                  "fill": "$text-ink",
+                  "content": "Company",
+                  "lineHeight": 1.3,
+                  "fontFamily": "$font-body",
+                  "fontSize": 24,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "mtppH",
+              "name": "component/blog-filter-chip / active",
+              "reusable": true,
+              "fill": "$coral",
+              "cornerRadius": 30,
+              "stroke": {
+                "align": "inside",
+                "thickness": 1,
+                "fill": "$coral"
+              },
+              "gap": 8,
+              "padding": [
+                12,
+                24
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "lhqAG",
+                  "name": "label",
+                  "fill": "$text-ink",
+                  "content": "Research",
+                  "lineHeight": 1.3,
+                  "fontFamily": "$font-body",
+                  "fontSize": 24,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "yh9dt",
+          "name": "component/research-table / desktop",
+          "reusable": true,
+          "width": "fill_container",
+          "fill": "$canvas-white",
+          "layout": "vertical",
+          "children": [
+            {
+              "type": "frame",
+              "id": "SIJRv",
+              "name": "compact-filter-row",
+              "width": "fill_container",
+              "gap": 8,
+              "padding": [
+                0,
+                0,
+                24,
+                0
+              ],
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "RJveY",
+                  "name": "filter-pill",
+                  "cornerRadius": 30,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "$rule-hairline"
+                  },
+                  "padding": [
+                    8,
+                    16
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "t9SWS",
+                      "name": "label",
+                      "fill": "$text-ink",
+                      "content": "All",
+                      "lineHeight": 1.4,
+                      "fontFamily": "$font-body",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Cpmc9",
+                  "name": "filter-pill",
+                  "cornerRadius": 30,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "$rule-hairline"
+                  },
+                  "padding": [
+                    8,
+                    16
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "jiRPl",
+                      "name": "label",
+                      "fill": "$text-ink",
+                      "content": "Agents",
+                      "lineHeight": 1.4,
+                      "fontFamily": "$font-body",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Vr7W6",
+              "name": "publication-row",
+              "width": "fill_container",
+              "stroke": {
+                "align": "inside",
+                "thickness": {
+                  "top": 1
+                },
+                "fill": "$rule-hairline"
+              },
+              "gap": 24,
+              "padding": [
+                24,
+                0
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "maXL2",
+                  "name": "cell / title",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 6,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "mnMeL",
+                      "name": "publication-title",
+                      "fill": "$text-ink",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Evaluating agent reliability under constrained tool access",
+                      "lineHeight": 1.3,
+                      "fontFamily": "$font-body",
+                      "fontSize": 24,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "YnbnG",
+                      "name": "authors",
+                      "fill": "$text-slate",
+                      "content": "YourSacralGuide Research",
+                      "lineHeight": 1.4,
+                      "fontFamily": "$font-body",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "J8jV7",
+                  "name": "cell / topic-pills",
+                  "width": 220,
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "mqKXl",
+                      "name": "topic-pill",
+                      "cornerRadius": 30,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1,
+                        "fill": "$coral"
+                      },
+                      "padding": [
+                        6,
+                        10
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "bS8SU",
+                          "name": "label",
+                          "fill": "$text-ink",
+                          "content": "Safety",
+                          "lineHeight": 1.4,
+                          "fontFamily": "$font-body",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "IF2l9",
+                  "name": "cell / date",
+                  "width": 120,
+                  "justifyContent": "end",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "skZxL",
+                      "name": "date",
+                      "fill": "$text-slate",
+                      "content": "May 2026",
+                      "lineHeight": 1.4,
+                      "fontFamily": "$font-body",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "d1dNNQ",
+          "name": "component/research-table / mobile-row",
+          "reusable": true,
+          "width": 360,
+          "fill": "$canvas-white",
+          "layout": "vertical",
+          "children": [
+            {
+              "type": "frame",
+              "id": "nq1fe",
+              "name": "publication-row-stacked",
+              "width": "fill_container",
+              "stroke": {
+                "align": "inside",
+                "thickness": {
+                  "top": 1,
+                  "bottom": 1
+                },
+                "fill": "$rule-hairline"
+              },
+              "layout": "vertical",
+              "gap": 12,
+              "padding": [
+                24,
+                0
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "uRvPb",
+                  "name": "publication-title",
+                  "fill": "$text-ink",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Evaluating agent reliability under constrained tool access",
+                  "lineHeight": 1.3,
+                  "fontFamily": "$font-body",
+                  "fontSize": 24,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "R3ntqa",
+                  "name": "stacked-meta",
+                  "width": "fill_container",
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "FxWPm",
+                      "name": "topic",
+                      "fill": "$coral",
+                      "content": "Safety",
+                      "lineHeight": 1.4,
+                      "fontFamily": "$font-body",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "gn6GS",
+                      "name": "date",
+                      "fill": "$text-slate",
+                      "content": "May 2026",
+                      "lineHeight": 1.4,
+                      "fontFamily": "$font-body",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "id": "kDrLy",
+          "name": "subsection-label / blog-list",
+          "fill": "$text-ink",
+          "textGrowth": "fixed-width",
+          "width": "fill_container",
+          "content": "Blog List Components",
+          "lineHeight": 1.3,
+          "fontFamily": "$font-body",
+          "fontSize": 24,
+          "fontWeight": "normal"
+        },
+        {
+          "type": "frame",
+          "id": "ZUxyq",
+          "name": "component/blog-index-header",
+          "reusable": true,
+          "width": "fill_container",
+          "fill": "$canvas-white",
+          "layout": "vertical",
+          "gap": 32,
+          "padding": [
+            56,
+            0,
+            32,
+            0
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "K5ex6",
+              "name": "mono-label",
+              "fill": "$text-muted",
+              "content": "BLOG",
+              "lineHeight": 1.4,
+              "fontFamily": "$font-mono",
+              "fontSize": 14,
+              "fontWeight": "normal",
+              "letterSpacing": 0.28
+            },
+            {
+              "type": "text",
+              "id": "c8u6B",
+              "name": "headline",
+              "fill": "$text-ink",
+              "textGrowth": "fixed-width",
+              "width": 780,
+              "content": "Notes on building controlled AI systems.",
+              "lineHeight": 1,
+              "fontFamily": "$font-display",
+              "fontSize": 72,
+              "fontWeight": "normal",
+              "letterSpacing": -1.44
+            },
+            {
+              "type": "text",
+              "id": "C5BFq2",
+              "name": "intro",
+              "fill": "$text-ink",
+              "textGrowth": "fixed-width",
+              "width": 620,
+              "content": "Research notes, product essays, and practical governance patterns for teams deploying agents in the real world.",
+              "lineHeight": 1.4,
+              "fontFamily": "$font-body",
+              "fontSize": 18,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "fqGwU",
+              "name": "search-and-filters",
+              "width": "fill_container",
+              "gap": 16,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "Ycaq4",
+                  "name": "search-field",
+                  "width": "fill_container",
+                  "height": 48,
+                  "fill": "$canvas-white",
+                  "cornerRadius": 4,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "$rule-border-light"
+                  },
+                  "gap": 10,
+                  "padding": [
+                    12,
+                    16
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "PXJLL",
+                      "name": "search-icon",
+                      "width": 18,
+                      "height": 18,
+                      "iconFontName": "search",
+                      "iconFontFamily": "lucide",
+                      "fill": "$text-muted"
+                    },
+                    {
+                      "type": "text",
+                      "id": "CbmBG",
+                      "name": "placeholder",
+                      "fill": "$text-muted",
+                      "content": "Search articles",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$font-body",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "id": "xZop5",
+                  "type": "ref",
+                  "ref": "mtppH",
+                  "name": "active-filter-chip"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "CByDX",
+          "name": "component/blog-featured-post-card",
+          "reusable": true,
+          "width": "fill_container",
+          "fill": "$canvas-white",
+          "stroke": {
+            "align": "inside",
+            "thickness": {
+              "top": 1,
+              "bottom": 1
+            },
+            "fill": "$rule-hairline"
+          },
+          "gap": 32,
+          "padding": [
+            32,
+            0
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "lCvzk",
+              "name": "featured-image",
+              "metadata": {
+                "type": "unsplash",
+                "username": "thisisengineering",
+                "link": "https://unsplash.com/@thisisengineering",
+                "author": "ThisisEngineering"
+              },
+              "clip": true,
+              "width": 420,
+              "height": 280,
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "https://images.unsplash.com/photo-1581091872370-1c203d690c43?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg3NTIwNTR8&ixlib=rb-4.1.0&q=80&w=1080",
+                "mode": "fill"
+              },
+              "cornerRadius": 8,
+              "layout": "none"
+            },
+            {
+              "type": "frame",
+              "id": "U1dGAP",
+              "name": "post-summary",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 18,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "rvkzD",
+                  "name": "metadata-row",
+                  "width": "fill_container",
+                  "gap": 12,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "v8zp4A",
+                      "name": "category-chip",
+                      "fill": "#fff7f4",
+                      "cornerRadius": 30,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1,
+                        "fill": "$soft-coral"
+                      },
+                      "padding": [
+                        6,
+                        10
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "SRYBP",
+                          "name": "label",
+                          "fill": "$text-ink",
+                          "content": "Research",
+                          "lineHeight": 1.4,
+                          "fontFamily": "$font-body",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "O6kpj",
+                      "name": "date",
+                      "fill": "$text-slate",
+                      "content": "May 14, 2026",
+                      "lineHeight": 1.4,
+                      "fontFamily": "$font-body",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "HyTLI",
+                  "name": "post-title",
+                  "fill": "$text-ink",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "How governed agents change the shape of product work",
+                  "lineHeight": 1.2,
+                  "fontFamily": "$font-body",
+                  "fontSize": 32,
+                  "fontWeight": "normal",
+                  "letterSpacing": -0.32
+                },
+                {
+                  "type": "text",
+                  "id": "E4UQVN",
+                  "name": "excerpt",
+                  "fill": "$text-ink",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "A practical look at review paths, escalation loops, and the quiet interface details that make autonomous work accountable.",
+                  "lineHeight": 1.4,
+                  "fontFamily": "$font-body",
+                  "fontSize": 18,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "s4MFl",
+                  "name": "read-more-link",
+                  "fill": "$text-ink",
+                  "content": "Read article",
+                  "lineHeight": 1.5,
+                  "fontFamily": "$font-body",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "rZ76W",
+          "name": "component/blog-list-row",
+          "reusable": true,
+          "width": "fill_container",
+          "fill": "$canvas-white",
+          "stroke": {
+            "align": "inside",
+            "thickness": {
+              "top": 1
+            },
+            "fill": "$rule-hairline"
+          },
+          "gap": 24,
+          "padding": [
+            24,
+            0
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "vBdgF",
+              "name": "thumbnail",
+              "metadata": {
+                "type": "unsplash",
+                "username": "add_rien_20",
+                "link": "https://unsplash.com/@add_rien_20",
+                "author": "Adrien"
+              },
+              "clip": true,
+              "width": 160,
+              "height": 104,
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "https://images.unsplash.com/photo-1650327034581-1711a15a5430?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg3NTIwNTV8&ixlib=rb-4.1.0&q=80&w=1080",
+                "mode": "fill"
+              },
+              "cornerRadius": 4,
+              "layout": "none"
+            },
+            {
+              "type": "frame",
+              "id": "M6J0DE",
+              "name": "summary",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 8,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "u616wR",
+                  "name": "metadata-row",
+                  "width": "fill_container",
+                  "gap": 10,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Hvfp1",
+                      "name": "category",
+                      "fill": "$coral",
+                      "content": "Systems",
+                      "lineHeight": 1.4,
+                      "fontFamily": "$font-body",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Wd6wC",
+                      "name": "date",
+                      "fill": "$text-slate",
+                      "content": "May 2026",
+                      "lineHeight": 1.4,
+                      "fontFamily": "$font-body",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "MSzh4",
+                  "name": "post-title",
+                  "fill": "$text-ink",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Designing approval queues that people actually use",
+                  "lineHeight": 1.3,
+                  "fontFamily": "$font-body",
+                  "fontSize": 24,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "KNmms",
+                  "name": "excerpt",
+                  "fill": "$text-slate",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Small interface decisions determine whether oversight feels like trust or bureaucracy.",
+                  "lineHeight": 1.5,
+                  "fontFamily": "$font-body",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "icon_font",
+              "id": "O2Ic2",
+              "name": "read-arrow",
+              "width": 22,
+              "height": 22,
+              "iconFontName": "arrow-right",
+              "iconFontFamily": "lucide",
+              "fill": "$text-ink"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "sHC0a",
+          "name": "component/blog-card / grid",
+          "reusable": true,
+          "width": 360,
+          "fill": "$canvas-white",
+          "layout": "vertical",
+          "gap": 16,
+          "children": [
+            {
+              "type": "frame",
+              "id": "srwUV",
+              "name": "article-thumbnail",
+              "metadata": {
+                "type": "unsplash",
+                "username": "snapsbyclark",
+                "link": "https://unsplash.com/@snapsbyclark",
+                "author": "Clark Van Der Beken"
+              },
+              "clip": true,
+              "width": "fill_container",
+              "height": 210,
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "https://images.unsplash.com/photo-1612386649465-5afc2ef04bc1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg3NTIwNTZ8&ixlib=rb-4.1.0&q=80&w=1080",
+                "mode": "fill"
+              },
+              "cornerRadius": 8,
+              "layout": "none"
+            },
+            {
+              "type": "frame",
+              "id": "D7x0S1",
+              "name": "metadata-row",
+              "width": "fill_container",
+              "gap": 10,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "F4V7X",
+                  "name": "category",
+                  "fill": "$coral",
+                  "content": "Product",
+                  "lineHeight": 1.4,
+                  "fontFamily": "$font-body",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "koL6c",
+                  "name": "date",
+                  "fill": "$text-slate",
+                  "content": "Apr 2026",
+                  "lineHeight": 1.4,
+                  "fontFamily": "$font-body",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "WOzQR",
+              "name": "post-title",
+              "fill": "$text-ink",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "What product teams need from agent logs",
+              "lineHeight": 1.3,
+              "fontFamily": "$font-body",
+              "fontSize": 24,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "TTo9p",
+              "name": "excerpt",
+              "fill": "$text-slate",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Readable traces help teams move faster without losing accountability.",
+              "lineHeight": 1.5,
+              "fontFamily": "$font-body",
+              "fontSize": 16,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "oVo9V",
+          "name": "component/blog-list-item / mobile",
+          "reusable": true,
+          "width": 360,
+          "fill": "$canvas-white",
+          "stroke": {
+            "align": "inside",
+            "thickness": {
+              "top": 1
+            },
+            "fill": "$rule-hairline"
+          },
+          "layout": "vertical",
+          "gap": 14,
+          "padding": [
+            20,
+            0
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "RDCxn",
+              "name": "metadata-row",
+              "width": "fill_container",
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "id5Nc",
+                  "name": "category",
+                  "fill": "$coral",
+                  "content": "Systems",
+                  "lineHeight": 1.4,
+                  "fontFamily": "$font-body",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "L7Y3p",
+                  "name": "date",
+                  "fill": "$text-slate",
+                  "content": "May 2026",
+                  "lineHeight": 1.4,
+                  "fontFamily": "$font-body",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "BkQFR",
+              "name": "post-title",
+              "fill": "$text-ink",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Designing approval queues that people actually use",
+              "lineHeight": 1.3,
+              "fontFamily": "$font-body",
+              "fontSize": 24,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "TZKsj",
+              "name": "thumbnail",
+              "metadata": {
+                "type": "unsplash",
+                "username": "nataliened",
+                "link": "https://unsplash.com/@nataliened",
+                "author": "natalie nedelmann"
+              },
+              "clip": true,
+              "width": "fill_container",
+              "height": 180,
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "https://images.unsplash.com/photo-1582755942732-33c80c11effe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg3NTIwNTZ8&ixlib=rb-4.1.0&q=80&w=1080",
+                "mode": "fill"
+              },
+              "cornerRadius": 8,
+              "layout": "none"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "id": "XiOcc",
+          "name": "subsection-label / single-post",
+          "fill": "$text-ink",
+          "textGrowth": "fixed-width",
+          "width": "fill_container",
+          "content": "Single Blog Post Components",
+          "lineHeight": 1.3,
+          "fontFamily": "$font-body",
+          "fontSize": 24,
+          "fontWeight": "normal"
+        },
+        {
+          "type": "frame",
+          "id": "b77F4",
+          "name": "component/blog-post-hero",
+          "reusable": true,
+          "width": "fill_container",
+          "fill": "$canvas-white",
+          "layout": "vertical",
+          "gap": 28,
+          "padding": [
+            64,
+            0,
+            40,
+            0
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "QEE2X",
+              "name": "breadcrumb-row",
+              "width": "fill_container",
+              "gap": 8,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "hVFI2",
+                  "name": "crumb",
+                  "fill": "$text-slate",
+                  "content": "Blog",
+                  "lineHeight": 1.4,
+                  "fontFamily": "$font-body",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "icon_font",
+                  "id": "fGs0H",
+                  "name": "chevron-right",
+                  "width": 14,
+                  "height": 14,
+                  "iconFontName": "chevron-right",
+                  "iconFontFamily": "lucide",
+                  "fill": "$text-slate"
+                },
+                {
+                  "type": "text",
+                  "id": "dPAox",
+                  "name": "current",
+                  "fill": "$text-ink",
+                  "content": "Research",
+                  "lineHeight": 1.4,
+                  "fontFamily": "$font-body",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "rfQe8",
+              "name": "metadata-row",
+              "gap": 12,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "K8XFs",
+                  "name": "category-chip",
+                  "fill": "#fff7f4",
+                  "cornerRadius": 30,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "$soft-coral"
+                  },
+                  "padding": [
+                    6,
+                    10
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "A7TrDv",
+                      "name": "label",
+                      "fill": "$text-ink",
+                      "content": "Research",
+                      "lineHeight": 1.4,
+                      "fontFamily": "$font-body",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "xJVZW",
+                  "name": "date",
+                  "fill": "$text-slate",
+                  "content": "May 14, 2026",
+                  "lineHeight": 1.4,
+                  "fontFamily": "$font-body",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "w46Fe",
+              "name": "headline",
+              "fill": "$text-ink",
+              "textGrowth": "fixed-width",
+              "width": 880,
+              "content": "How governed agents change the shape of product work",
+              "lineHeight": 1,
+              "fontFamily": "$font-display",
+              "fontSize": 72,
+              "fontWeight": "normal",
+              "letterSpacing": -1.44
+            },
+            {
+              "type": "text",
+              "id": "Vjxm4",
+              "name": "dek",
+              "fill": "$text-ink",
+              "textGrowth": "fixed-width",
+              "width": 680,
+              "content": "A practical look at review paths, escalation loops, and the quiet interface details that make autonomous work accountable.",
+              "lineHeight": 1.4,
+              "fontFamily": "$font-body",
+              "fontSize": 18,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "g4p5CE",
+              "name": "author-row",
+              "gap": 12,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "wy3ZG",
+                  "name": "author-avatar",
+                  "width": 40,
+                  "height": 40,
+                  "fill": "$soft-stone",
+                  "cornerRadius": 9999,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "mwDIc",
+                      "name": "initials",
+                      "fill": "$text-ink",
+                      "content": "YS",
+                      "lineHeight": 1.4,
+                      "fontFamily": "$font-body",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "C8lyKc",
+                  "name": "author-text",
+                  "layout": "vertical",
+                  "gap": 2,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "ccC70",
+                      "name": "name",
+                      "fill": "$text-ink",
+                      "content": "YourSacralGuide Editorial",
+                      "lineHeight": 1.4,
+                      "fontFamily": "$font-body",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "QtDoS",
+                      "name": "role",
+                      "fill": "$text-muted",
+                      "content": "Research and product notes",
+                      "lineHeight": 1.4,
+                      "fontFamily": "$font-body",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "hC0U1",
+              "name": "hero-image",
+              "metadata": {
+                "type": "unsplash",
+                "username": "nasa",
+                "link": "https://unsplash.com/@nasa",
+                "author": "NASA"
+              },
+              "clip": true,
+              "width": "fill_container",
+              "height": 420,
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg3NTIxNjR8&ixlib=rb-4.1.0&q=80&w=1080",
+                "mode": "fill"
+              },
+              "cornerRadius": 22,
+              "layout": "none"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "Oq8c5",
+          "name": "component/blog-post-body-block",
+          "reusable": true,
+          "width": 720,
+          "fill": "$canvas-white",
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            24,
+            0
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "v2taLu",
+              "name": "lead-paragraph",
+              "fill": "$text-ink",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Agent systems do not become trustworthy because the interface says they are autonomous. They become trustworthy when every handoff, tool call, and decision path can be read by the people accountable for the outcome.",
+              "lineHeight": 1.4,
+              "fontFamily": "$font-body",
+              "fontSize": 18,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "w85JKY",
+              "name": "paragraph",
+              "fill": "$text-ink",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "The clearest product surfaces treat governance as part of the workflow rather than an administrative layer added afterward. Approval queues, trace views, and escalation states should feel ordinary, legible, and fast.",
+              "lineHeight": 1.5,
+              "fontFamily": "$font-body",
+              "fontSize": 16,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "zaZwz",
+              "name": "section-heading",
+              "fill": "$text-ink",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Start with the review path",
+              "lineHeight": 1.2,
+              "fontFamily": "$font-body",
+              "fontSize": 32,
+              "fontWeight": "normal",
+              "letterSpacing": -0.32
+            },
+            {
+              "type": "text",
+              "id": "VOsjE",
+              "name": "paragraph",
+              "fill": "$text-ink",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Before adding more automation, define which decisions need human review, which can be sampled, and which should be blocked until context improves.",
+              "lineHeight": 1.5,
+              "fontFamily": "$font-body",
+              "fontSize": 16,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "pmmW6",
+          "name": "component/blog-post-pullquote",
+          "reusable": true,
+          "width": 720,
+          "fill": "$canvas-white",
+          "stroke": {
+            "align": "inside",
+            "thickness": {
+              "left": 2
+            },
+            "fill": "$coral"
+          },
+          "layout": "vertical",
+          "gap": 16,
+          "padding": [
+            24,
+            0,
+            24,
+            24
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "zbp09",
+              "name": "quote",
+              "fill": "$text-ink",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "The interface should make system behavior easier to inspect, not more impressive to look at.",
+              "lineHeight": 1.2,
+              "fontFamily": "$font-body",
+              "fontSize": 32,
+              "fontWeight": "normal",
+              "letterSpacing": -0.32
+            },
+            {
+              "type": "text",
+              "id": "EUAuN",
+              "name": "attribution",
+              "fill": "$text-muted",
+              "content": "YourSacralGuide Design Principle",
+              "lineHeight": 1.4,
+              "fontFamily": "$font-mono",
+              "fontSize": 14,
+              "fontWeight": "normal",
+              "letterSpacing": 0.28
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "zoCLh",
+          "name": "component/blog-post-image-card",
+          "reusable": true,
+          "width": 720,
+          "fill": "$canvas-white",
+          "layout": "vertical",
+          "gap": 10,
+          "children": [
+            {
+              "type": "frame",
+              "id": "W5SUM9",
+              "name": "article-image",
+              "metadata": {
+                "type": "unsplash",
+                "username": "tanyabarrow",
+                "link": "https://unsplash.com/@tanyabarrow",
+                "author": "Tanya Barrow"
+              },
+              "clip": true,
+              "width": "fill_container",
+              "height": 420,
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "https://images.unsplash.com/photo-1770731959662-4797c1ac2051?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzg3NTIxNjV8&ixlib=rb-4.1.0&q=80&w=1080",
+                "mode": "fill"
+              },
+              "cornerRadius": 8,
+              "layout": "none"
+            },
+            {
+              "type": "text",
+              "id": "QEQzB",
+              "name": "caption",
+              "fill": "$text-slate",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "A restrained image treatment: rounded media, quiet caption, no decorative frame.",
+              "lineHeight": 1.4,
+              "fontFamily": "$font-body",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "gOCzg",
+          "name": "component/blog-post-share-row",
+          "reusable": true,
+          "width": 720,
+          "fill": "$canvas-white",
+          "stroke": {
+            "align": "inside",
+            "thickness": {
+              "top": 1,
+              "bottom": 1
+            },
+            "fill": "$rule-hairline"
+          },
+          "padding": [
+            24,
+            0
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "Q9x2kH",
+              "name": "label",
+              "fill": "$text-ink",
+              "content": "Share this article",
+              "lineHeight": 1.5,
+              "fontFamily": "$font-body",
+              "fontSize": 16,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "SHiBH",
+              "name": "share-actions",
+              "gap": 10,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "Ipg5x",
+                  "name": "copy-link-button",
+                  "width": 40,
+                  "height": 40,
+                  "cornerRadius": 9999,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "$rule-border-light"
+                  },
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "icon_font",
+                      "id": "Us0KS",
+                      "name": "link-icon",
+                      "width": 18,
+                      "height": 18,
+                      "iconFontName": "link",
+                      "iconFontFamily": "lucide",
+                      "fill": "$text-ink"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "KojxM",
+                  "name": "linkedin-button",
+                  "width": 40,
+                  "height": 40,
+                  "cornerRadius": 9999,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1,
+                    "fill": "$rule-border-light"
+                  },
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "wF8a0",
+                      "name": "label",
+                      "fill": "$text-ink",
+                      "content": "in",
+                      "lineHeight": 1.4,
+                      "fontFamily": "$font-body",
+                      "fontSize": 14,
+                      "fontWeight": "500"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "o0pJ0",
+          "name": "component/related-posts-strip",
+          "reusable": true,
+          "width": "fill_container",
+          "fill": "$canvas-white",
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            40,
+            0
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "OIfKK",
+              "name": "section-heading",
+              "fill": "$text-ink",
+              "content": "Related reading",
+              "lineHeight": 1.2,
+              "fontFamily": "$font-body",
+              "fontSize": 32,
+              "fontWeight": "normal",
+              "letterSpacing": -0.32
+            },
+            {
+              "type": "frame",
+              "id": "j8r7R1",
+              "name": "related-grid",
+              "width": "fill_container",
+              "gap": 24,
+              "children": [
+                {
+                  "id": "NkbZJ",
+                  "type": "ref",
+                  "ref": "b2WSb",
+                  "name": "related-card-1",
+                  "width": "fill_container",
+                  "descendants": {
+                    "K0TNw": {
+                      "content": "BLOG"
+                    },
+                    "iEKaA": {
+                      "content": "Approval queues without friction"
+                    },
+                    "jj6cZ": {
+                      "content": "How review states create trust without slowing teams down."
+                    }
+                  }
+                },
+                {
+                  "id": "k3FXL",
+                  "type": "ref",
+                  "ref": "b2WSb",
+                  "name": "related-card-2",
+                  "width": "fill_container",
+                  "descendants": {
+                    "K0TNw": {
+                      "content": "RESEARCH"
+                    },
+                    "iEKaA": {
+                      "content": "What traces need to show"
+                    },
+                    "jj6cZ": {
+                      "content": "Readable logs for teams accountable for agent outcomes."
+                    }
+                  }
+                },
+                {
+                  "id": "X65Z9v",
+                  "type": "ref",
+                  "ref": "b2WSb",
+                  "name": "related-card-3",
+                  "width": "fill_container",
+                  "descendants": {
+                    "K0TNw": {
+                      "content": "SYSTEMS"
+                    },
+                    "iEKaA": {
+                      "content": "Escalation design patterns"
+                    },
+                    "jj6cZ": {
+                      "content": "Where automation should pause and ask for help."
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "V8Ubv",
+      "x": 2600,
+      "y": 1220,
+      "name": "Forms",
+      "width": 1200,
+      "fill": "$soft-stone",
+      "layout": "vertical",
+      "gap": 24,
+      "padding": 32,
+      "children": [
+        {
+          "type": "text",
+          "id": "p1mrRh",
+          "name": "section-title",
+          "fill": "$text-ink",
+          "textGrowth": "fixed-width",
+          "width": "fill_container",
+          "content": "Forms",
+          "lineHeight": 1,
+          "fontFamily": "$font-display",
+          "fontSize": 48,
+          "fontWeight": "normal",
+          "letterSpacing": -0.48
+        },
+        {
+          "type": "frame",
+          "id": "K4fqL",
+          "name": "contact-form-variants",
+          "width": "fill_container",
+          "gap": 24,
+          "children": [
+            {
+              "type": "frame",
+              "id": "v3JQP",
+              "name": "component/contact-form-card / desktop",
+              "reusable": true,
+              "width": "fill_container",
+              "fill": "$canvas-white",
+              "cornerRadius": 16,
+              "stroke": {
+                "align": "inside",
+                "thickness": 1,
+                "fill": "$rule-border-light"
+              },
+              "layout": "vertical",
+              "gap": 20,
+              "padding": 32,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "KWbiW",
+                  "name": "form-header",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Vj7OV",
+                      "name": "heading",
+                      "fill": "$text-ink",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Talk to the team",
+                      "lineHeight": 1.2,
+                      "fontFamily": "$font-body",
+                      "fontSize": 32,
+                      "fontWeight": "normal",
+                      "letterSpacing": -0.32
+                    },
+                    {
+                      "type": "text",
+                      "id": "mEVOj",
+                      "name": "body",
+                      "fill": "$text-slate",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Share your deployment goals and governance requirements.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$font-body",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "z33ZXv",
+                  "name": "two-column-field-row",
+                  "width": "fill_container",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "a1wlFq",
+                      "name": "field / name",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "e0QoW",
+                          "name": "label",
+                          "fill": "$text-ink",
+                          "content": "Name",
+                          "lineHeight": 1.4,
+                          "fontFamily": "$font-body",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "HKQ7j",
+                          "name": "input",
+                          "width": "fill_container",
+                          "height": 48,
+                          "fill": "$canvas-white",
+                          "cornerRadius": 4,
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1,
+                            "fill": "$rule-hairline"
+                          },
+                          "padding": [
+                            12,
+                            16
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "lfcdB",
+                              "name": "placeholder",
+                              "fill": "$text-muted",
+                              "content": "Jane Doe",
+                              "lineHeight": 1.5,
+                              "fontFamily": "$font-body",
+                              "fontSize": 16,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "jsCjK",
+                      "name": "field / email",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "T0W1xG",
+                          "name": "label",
+                          "fill": "$text-ink",
+                          "content": "Email",
+                          "lineHeight": 1.4,
+                          "fontFamily": "$font-body",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "LcytU",
+                          "name": "input",
+                          "width": "fill_container",
+                          "height": 48,
+                          "fill": "$canvas-white",
+                          "cornerRadius": 4,
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1,
+                            "fill": "$rule-hairline"
+                          },
+                          "padding": [
+                            12,
+                            16
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "KCKgL",
+                              "name": "placeholder",
+                              "fill": "$text-muted",
+                              "content": "jane@company.com",
+                              "lineHeight": 1.5,
+                              "fontFamily": "$font-body",
+                              "fontSize": 16,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "E4qvPr",
+                  "name": "field / message",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "t5y00",
+                      "name": "label",
+                      "fill": "$text-ink",
+                      "content": "Message",
+                      "lineHeight": 1.4,
+                      "fontFamily": "$font-body",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "BZ1fk",
+                      "name": "textarea",
+                      "width": "fill_container",
+                      "height": 128,
+                      "fill": "$canvas-white",
+                      "cornerRadius": 4,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1,
+                        "fill": "$rule-hairline"
+                      },
+                      "layout": "vertical",
+                      "padding": 16,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "K8CV0",
+                          "name": "placeholder",
+                          "fill": "$text-muted",
+                          "textGrowth": "fixed-width",
+                          "width": "fill_container",
+                          "content": "Tell us what you are building.",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$font-body",
+                          "fontSize": 16,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Oj0wk",
+                  "name": "submit-row",
+                  "width": "fill_container",
+                  "justifyContent": "end",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "Mm4CC",
+                      "name": "submit-button",
+                      "fill": "$near-black",
+                      "cornerRadius": 32,
+                      "padding": [
+                        12,
+                        24
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "ILxPn",
+                          "name": "label",
+                          "fill": "$canvas-white",
+                          "content": "Submit",
+                          "lineHeight": 1.71,
+                          "fontFamily": "$font-body",
+                          "fontSize": 14,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "kls4d",
+              "name": "component/contact-form-card / mobile",
+              "reusable": true,
+              "width": 360,
+              "fill": "$canvas-white",
+              "cornerRadius": 16,
+              "stroke": {
+                "align": "inside",
+                "thickness": 1,
+                "fill": "$rule-border-light"
+              },
+              "layout": "vertical",
+              "gap": 18,
+              "padding": 24,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "AKhEG",
+                  "name": "heading",
+                  "fill": "$text-ink",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Talk to the team",
+                  "lineHeight": 1.2,
+                  "fontFamily": "$font-body",
+                  "fontSize": 32,
+                  "fontWeight": "normal",
+                  "letterSpacing": -0.32
+                },
+                {
+                  "type": "frame",
+                  "id": "M0871F",
+                  "name": "field / name",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "FnvZj",
+                      "name": "label",
+                      "fill": "$text-ink",
+                      "content": "Name",
+                      "lineHeight": 1.4,
+                      "fontFamily": "$font-body",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "CxyFP",
+                      "name": "input",
+                      "width": "fill_container",
+                      "height": 48,
+                      "cornerRadius": 4,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1,
+                        "fill": "$rule-hairline"
+                      },
+                      "padding": [
+                        12,
+                        16
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "ue1kN",
+                          "name": "placeholder",
+                          "fill": "$text-muted",
+                          "content": "Jane Doe",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$font-body",
+                          "fontSize": 16,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "E8xzm",
+                  "name": "field / email",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "k340c",
+                      "name": "label",
+                      "fill": "$text-ink",
+                      "content": "Email",
+                      "lineHeight": 1.4,
+                      "fontFamily": "$font-body",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "sTYT3",
+                      "name": "input",
+                      "width": "fill_container",
+                      "height": 48,
+                      "cornerRadius": 4,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1,
+                        "fill": "$rule-hairline"
+                      },
+                      "padding": [
+                        12,
+                        16
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "dnOmK",
+                          "name": "placeholder",
+                          "fill": "$text-muted",
+                          "content": "jane@company.com",
+                          "lineHeight": 1.5,
+                          "fontFamily": "$font-body",
+                          "fontSize": 16,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "GuIUv",
+                  "name": "submit-button",
+                  "width": "fill_container",
+                  "fill": "$near-black",
+                  "cornerRadius": 32,
+                  "padding": [
+                    12,
+                    24
+                  ],
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "SXzbC",
+                      "name": "label",
+                      "fill": "$canvas-white",
+                      "content": "Submit",
+                      "lineHeight": 1.71,
+                      "fontFamily": "$font-body",
+                      "fontSize": 14,
+                      "fontWeight": "500"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "Qq7Rt",
+      "x": 2600,
+      "y": 1880,
+      "name": "Footer",
+      "width": 1200,
+      "fill": "$canvas-white",
+      "layout": "vertical",
+      "gap": 24,
+      "padding": 32,
+      "children": [
+        {
+          "type": "text",
+          "id": "GyolL",
+          "name": "section-title",
+          "fill": "$text-ink",
+          "textGrowth": "fixed-width",
+          "width": "fill_container",
+          "content": "Footer",
+          "lineHeight": 1,
+          "fontFamily": "$font-display",
+          "fontSize": 48,
+          "fontWeight": "normal",
+          "letterSpacing": -0.48
+        },
+        {
+          "type": "frame",
+          "id": "a5yzBR",
+          "name": "component/footer-newsletter / desktop",
+          "reusable": true,
+          "width": "fill_container",
+          "fill": "$near-black",
+          "gap": 48,
+          "padding": 48,
+          "children": [
+            {
+              "type": "frame",
+              "id": "ctf9P",
+              "name": "newsletter-copy",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "YBlVs",
+                  "name": "coral-label",
+                  "fill": "$coral",
+                  "content": "AI moves fast",
+                  "lineHeight": 1.4,
+                  "fontFamily": "$font-body",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "BKuH9",
+                  "name": "headline",
+                  "fill": "$canvas-white",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Keep up with research, product notes, and governance patterns.",
+                  "lineHeight": 1.2,
+                  "fontFamily": "$font-body",
+                  "fontSize": 48,
+                  "fontWeight": "normal",
+                  "letterSpacing": -0.48
+                },
+                {
+                  "type": "text",
+                  "id": "qUfii",
+                  "name": "legal-copy",
+                  "fill": "$text-muted",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "No noise. Just practical updates for controlled AI systems.",
+                  "lineHeight": 1.4,
+                  "fontFamily": "$font-body",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "ueDS1",
+              "name": "email-signup",
+              "width": 360,
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "duqkG",
+                  "name": "single-line-email-field",
+                  "width": "fill_container",
+                  "height": 52,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": {
+                      "bottom": 1
+                    },
+                    "fill": "#ffffff66"
+                  },
+                  "gap": 12,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "yjBhM",
+                      "name": "placeholder",
+                      "fill": "$text-muted",
+                      "content": "Email address",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$font-body",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "icon_font",
+                      "id": "wqRXK",
+                      "name": "submit-arrow",
+                      "width": 20,
+                      "height": 20,
+                      "iconFontName": "arrow-right",
+                      "iconFontFamily": "lucide",
+                      "fill": "$canvas-white"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "SsCSC",
+                  "name": "footer-link-columns",
+                  "width": "fill_container",
+                  "gap": 36,
+                  "padding": [
+                    24,
+                    0,
+                    0,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "A1lv4L",
+                      "name": "link-column / product",
+                      "width": "fill_container",
+                      "layout": "vertical",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "d84xP",
+                          "name": "section-label",
+                          "fill": "$canvas-white",
+                          "content": "Product",
+                          "lineHeight": 1.4,
+                          "fontFamily": "$font-body",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "mVbao",
+                          "name": "footer-link",
+                          "fill": "$text-muted",
+                          "content": "Command",
+                          "lineHeight": 1.4,
+                          "fontFamily": "$font-body",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "J1HMQ",
+                          "name": "footer-link",
+                          "fill": "$text-muted",
+                          "content": "North",
+                          "lineHeight": 1.4,
+                          "fontFamily": "$font-body",
+                          "fontSize": 12,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "n7jvz7",
+          "name": "component/footer-newsletter / mobile",
+          "reusable": true,
+          "width": 360,
+          "fill": "$near-black",
+          "layout": "vertical",
+          "gap": 24,
+          "padding": 28,
+          "children": [
+            {
+              "type": "text",
+              "id": "MPxHv",
+              "name": "coral-label",
+              "fill": "$coral",
+              "content": "AI moves fast",
+              "lineHeight": 1.4,
+              "fontFamily": "$font-body",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "i651TL",
+              "name": "headline",
+              "fill": "$canvas-white",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Keep up with controlled AI systems.",
+              "lineHeight": 1.2,
+              "fontFamily": "$font-body",
+              "fontSize": 32,
+              "fontWeight": "normal",
+              "letterSpacing": -0.32
+            },
+            {
+              "type": "frame",
+              "id": "x4iYg",
+              "name": "single-line-email-field",
+              "width": "fill_container",
+              "height": 52,
+              "stroke": {
+                "align": "inside",
+                "thickness": {
+                  "bottom": 1
+                },
+                "fill": "#ffffff66"
+              },
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "TfLAH",
+                  "name": "placeholder",
+                  "fill": "$text-muted",
+                  "content": "Email address",
+                  "lineHeight": 1.5,
+                  "fontFamily": "$font-body",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "icon_font",
+                  "id": "zWc6y",
+                  "name": "submit-arrow",
+                  "width": 20,
+                  "height": 20,
+                  "iconFontName": "arrow-right",
+                  "iconFontFamily": "lucide",
+                  "fill": "$canvas-white"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "h7Sdhw",
+      "x": 2600,
+      "y": 80,
+      "name": "Component Notes",
+      "width": 760,
+      "fill": "$canvas-white",
+      "cornerRadius": 8,
+      "stroke": {
+        "align": "inside",
+        "thickness": 1,
+        "fill": "$rule-hairline"
+      },
+      "layout": "vertical",
+      "gap": 20,
+      "padding": 32,
+      "children": [
+        {
+          "type": "text",
+          "id": "JPyI3",
+          "name": "section-title",
+          "fill": "$text-ink",
+          "textGrowth": "fixed-width",
+          "width": "fill_container",
+          "content": "Component Notes",
+          "lineHeight": 1,
+          "fontFamily": "$font-display",
+          "fontSize": 48,
+          "fontWeight": "normal",
+          "letterSpacing": -0.48
+        },
+        {
+          "type": "text",
+          "id": "pX4FP",
+          "name": "source-note",
+          "fill": "$text-ink",
+          "textGrowth": "fixed-width",
+          "width": "fill_container",
+          "content": "Source of truth: DESIGN.MD global design system, especially Colors, Typography, Layout, Shapes, Image Treatment, Components, Responsive Behavior, and Do's and Don'ts.",
+          "lineHeight": 1.5,
+          "fontFamily": "$font-body",
+          "fontSize": 16,
+          "fontWeight": "normal"
+        },
+        {
+          "type": "frame",
+          "id": "v6em6L",
+          "name": "important-styling-rules",
+          "width": "fill_container",
+          "stroke": {
+            "align": "inside",
+            "thickness": {
+              "top": 1
+            },
+            "fill": "$rule-hairline"
+          },
+          "layout": "vertical",
+          "gap": 10,
+          "padding": [
+            20,
+            0,
+            0,
+            0
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "lBA55",
+              "name": "heading",
+              "fill": "$text-ink",
+              "content": "Important Styling Rules",
+              "lineHeight": 1.3,
+              "fontFamily": "$font-body",
+              "fontSize": 24,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "M9mEUw",
+              "name": "rule",
+              "fill": "$text-ink",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Use white editorial canvas by default; reserve enterprise green and dark navy for full-width product bands.",
+              "lineHeight": 1.4,
+              "fontFamily": "$font-body",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "s6eZL",
+              "name": "rule",
+              "fill": "$text-ink",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Primary CTAs are near-black or white pill buttons with 12px 24px padding and 32px radius.",
+              "lineHeight": 1.4,
+              "fontFamily": "$font-body",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "jLBNP",
+              "name": "rule",
+              "fill": "$text-ink",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Coral is for taxonomy chips and warm markers, not broad UI surfaces or primary CTAs.",
+              "lineHeight": 1.4,
+              "fontFamily": "$font-body",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "sUKb0",
+              "name": "rule",
+              "fill": "$text-ink",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Depth is flat: thin borders, rounded media, surface contrast. Avoid heavy shadows and decorative gradients.",
+              "lineHeight": 1.4,
+              "fontFamily": "$font-body",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "tCmNQ",
+          "name": "component-to-design-md-map",
+          "width": "fill_container",
+          "stroke": {
+            "align": "inside",
+            "thickness": {
+              "top": 1
+            },
+            "fill": "$rule-hairline"
+          },
+          "layout": "vertical",
+          "gap": 8,
+          "padding": [
+            20,
+            0,
+            0,
+            0
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "C7Ynb2",
+              "name": "heading",
+              "fill": "$text-ink",
+              "content": "Component Origins",
+              "lineHeight": 1.3,
+              "fontFamily": "$font-body",
+              "fontSize": 24,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "n0EJb",
+              "name": "mapping-list",
+              "fill": "$text-ink",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "button-primary, button-secondary, button-pill-outline, announcement-bar, hero-photo-card, agent-console-card, trust-logo-strip, capability-card, dark-feature-band, product-card, blog-filter-chip, research-table, contact-form-card, and footer-newsletter all map directly to DESIGN.MD > Components. Responsive variants follow DESIGN.MD > Responsive Behavior.",
+              "lineHeight": 1.4,
+              "fontFamily": "$font-body",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "B9qdot",
+          "name": "tailwind-token-notes",
+          "width": "fill_container",
+          "stroke": {
+            "align": "inside",
+            "thickness": {
+              "top": 1
+            },
+            "fill": "$rule-hairline"
+          },
+          "layout": "vertical",
+          "gap": 8,
+          "padding": [
+            20,
+            0,
+            0,
+            0
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "a4RUw",
+              "name": "heading",
+              "fill": "$text-ink",
+              "content": "Recommended Tailwind Tokens",
+              "lineHeight": 1.3,
+              "fontFamily": "$font-body",
+              "fontSize": 24,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "nTUB0",
+              "name": "token-list",
+              "fill": "$text-ink",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Colors: brand-black, near-black, enterprise-green, dark-navy, action-blue, coral, soft-coral, soft-stone, pale-green, pale-blue, hairline, border-light, text-muted. Radius: xs 4, sm 8, md 16, lg 22, xl 30, pill 32, full 9999. Typography tokens should preserve display/body/mono roles.",
+              "lineHeight": 1.4,
+              "fontFamily": "$font-body",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "NGDG8",
+          "name": "missing-token-decisions",
+          "width": "fill_container",
+          "stroke": {
+            "align": "inside",
+            "thickness": {
+              "top": 1
+            },
+            "fill": "$rule-hairline"
+          },
+          "layout": "vertical",
+          "gap": 8,
+          "padding": [
+            20,
+            0,
+            0,
+            0
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "jpPYg",
+              "name": "heading",
+              "fill": "$text-ink",
+              "content": "Tailwind Config Decisions",
+              "lineHeight": 1.3,
+              "fontFamily": "$font-body",
+              "fontSize": 24,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "R2ook",
+              "name": "decision-list",
+              "fill": "$text-ink",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Add proprietary font-face assets when available; keep Pencil using Space Grotesk and Inter fallbacks. Add translucent dark surface tokens for #ffffff0d, #ffffff10, #ffffff22, and #ffffff66 if reused. Consider component aliases for btn-primary, taxonomy-chip, research-row, media-card, and dark-feature-band.",
+              "lineHeight": 1.4,
+              "fontFamily": "$font-body",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "F7emet",
+          "name": "added-components / navigation-and-blog",
+          "width": "fill_container",
+          "stroke": {
+            "align": "inside",
+            "thickness": {
+              "top": 1
+            },
+            "fill": "$rule-hairline"
+          },
+          "layout": "vertical",
+          "gap": 8,
+          "padding": [
+            20,
+            0,
+            0,
+            0
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "I4RBVi",
+              "name": "heading",
+              "fill": "$text-ink",
+              "content": "Added Navigation + Blog Components",
+              "lineHeight": 1.3,
+              "fontFamily": "$font-body",
+              "fontSize": 24,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "Glmr2",
+              "name": "component-list",
+              "fill": "$text-ink",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Added navigation-menu desktop/mobile, mega-menu products-open, blog-index-header, blog-featured-post-card, blog-list-row, blog-card grid, blog-list-item mobile, blog-post-hero, blog-post-body-block, blog-post-pullquote, blog-post-image-card, blog-post-share-row, and related-posts-strip. These extend DESIGN.MD guidance for global nav, blog/research publishing clarity, rule-separated rows, coral taxonomy, rounded media, and restrained flat surfaces.",
+              "lineHeight": 1.4,
+              "fontFamily": "$font-body",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "DTkOr",
+              "name": "tailwind-notes",
+              "fill": "$text-slate",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Useful Tailwind aliases: nav-shell, nav-link, mega-menu, blog-index-header, blog-featured-card, blog-list-row, blog-card, article-hero, article-prose, article-pullquote, article-share-row, related-posts. Keep list rows border-driven and avoid shadows.",
+              "lineHeight": 1.4,
+              "fontFamily": "$font-body",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "variables": {
+    "action-blue": {
+      "type": "color",
+      "value": "#1863dc"
+    },
+    "brand-black": {
+      "type": "color",
+      "value": "#000000"
+    },
+    "canvas-white": {
+      "type": "color",
+      "value": "#ffffff"
+    },
+    "card-border": {
+      "type": "color",
+      "value": "#f2f2f2"
+    },
+    "coral": {
+      "type": "color",
+      "value": "#ff7759"
+    },
+    "dark-navy": {
+      "type": "color",
+      "value": "#071829"
+    },
+    "enterprise-green": {
+      "type": "color",
+      "value": "#003c33"
+    },
+    "font-body": {
+      "type": "string",
+      "value": "Inter"
+    },
+    "font-display": {
+      "type": "string",
+      "value": "Space Grotesk"
+    },
+    "font-mono": {
+      "type": "string",
+      "value": "Inter"
+    },
+    "near-black": {
+      "type": "color",
+      "value": "#17171c"
+    },
+    "pale-blue": {
+      "type": "color",
+      "value": "#f1f5ff"
+    },
+    "pale-green": {
+      "type": "color",
+      "value": "#edfce9"
+    },
+    "rule-border-light": {
+      "type": "color",
+      "value": "#e5e7eb"
+    },
+    "rule-hairline": {
+      "type": "color",
+      "value": "#d9d9dd"
+    },
+    "soft-coral": {
+      "type": "color",
+      "value": "#ffad9b"
+    },
+    "soft-stone": {
+      "type": "color",
+      "value": "#eeece7"
+    },
+    "text-ink": {
+      "type": "color",
+      "value": "#212121"
+    },
+    "text-muted": {
+      "type": "color",
+      "value": "#93939f"
+    },
+    "text-slate": {
+      "type": "color",
+      "value": "#75758a"
+    }
+  }
+}

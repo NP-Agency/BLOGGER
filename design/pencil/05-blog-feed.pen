@@ -1,0 +1,67 @@
+{
+  "version": "2.11",
+  "children": [
+    {
+      "type": "frame",
+      "id": "feed001",
+      "x": 80,
+      "y": 80,
+      "name": "05 Blog Feed - Prompt",
+      "width": 1200,
+      "fill": "$canvas-white",
+      "layout": "vertical",
+      "gap": 16,
+      "padding": 32,
+      "children": [
+        {
+          "type": "text",
+          "id": "feed002",
+          "name": "title",
+          "fill": "$text-ink",
+          "width": "fill_container",
+          "content": "Blog Feed",
+          "fontFamily": "$font-display",
+          "fontSize": 48,
+          "lineHeight": 1,
+          "fontWeight": "normal"
+        },
+        {
+          "type": "text",
+          "id": "feed003",
+          "name": "usage-context",
+          "fill": "$text-ink",
+          "width": "fill_container",
+          "content": "Used as the primary Blogger index/feed area. It displays recent posts, categories, dates, excerpts, optional thumbnails, filters, and pagination while preserving Blogger dynamic post data.",
+          "fontFamily": "$font-body",
+          "fontSize": 18,
+          "lineHeight": 1.4,
+          "fontWeight": "normal"
+        },
+        {
+          "type": "text",
+          "id": "feed004",
+          "name": "pencil-visual-prompt",
+          "fill": "$text-ink",
+          "width": "fill_container",
+          "content": "Prompt: Using root DESIGN.MD as the primary design source and DESIGN.pen as the Pencil component library, create an editable blog-feed component. Reuse post-card, taxonomy/filter chip, pagination, and rule-separated list patterns. Create desktop and mobile frames. The feed should support Blogger dynamic content: post title, URL, date, label/category, excerpt, thumbnail, and older/newer navigation. Prefer editorial rows or restrained cards, thin dividers, clear scanning, and coral taxonomy accents. Target code file: src/components/_blog_feed.hbs.",
+          "fontFamily": "$font-mono",
+          "fontSize": 14,
+          "lineHeight": 1.45,
+          "fontWeight": "normal"
+        },
+        {
+          "type": "text",
+          "id": "feedcode",
+          "name": "html-css-code-prompt",
+          "fill": "$text-ink",
+          "width": "fill_container",
+          "content": "Code prompt: Convert this blog feed design into src/components/_blog_feed.hbs. Use the current .pen file as the visual source of truth, root DESIGN.MD as the design authority, DESIGN.pen as the component library reference, and tailwind.config.js as the code token source. Generate production-ready Hamlet Builder Handlebars markup with Tailwind CSS classes. Return only the partial markup for src/components/_blog_feed.hbs. Do not generate React, JSX, CSS Modules, Vue, external CSS frameworks, or unrelated JavaScript. Use semantic HTML and accessible attributes. Preserve Blogger dynamic behavior where relevant with Blogger/Hamlet tags and realistic placeholders only where dynamic data is unavailable. After copying the output into the repo, npm run build must pass.",
+          "fontFamily": "$font-mono",
+          "fontSize": 14,
+          "lineHeight": 1.45,
+          "fontWeight": "normal"
+        }
+      ]
+    }
+  ]
+}

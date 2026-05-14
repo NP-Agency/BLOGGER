@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+
+# Hamlet/Tailwind build output
+dist/
+
+# Local/editor state
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs and diagnostics
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment files
+.env
+.env.*
+!.env.example

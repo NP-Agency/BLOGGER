@@ -1,0 +1,67 @@
+{
+  "version": "2.11",
+  "children": [
+    {
+      "type": "frame",
+      "id": "post001",
+      "x": 80,
+      "y": 80,
+      "name": "07 Post Page - Prompt",
+      "width": 1200,
+      "fill": "$canvas-white",
+      "layout": "vertical",
+      "gap": 16,
+      "padding": 32,
+      "children": [
+        {
+          "type": "text",
+          "id": "post002",
+          "name": "title",
+          "fill": "$text-ink",
+          "width": "fill_container",
+          "content": "Post Page",
+          "fontFamily": "$font-display",
+          "fontSize": 48,
+          "lineHeight": 1,
+          "fontWeight": "normal"
+        },
+        {
+          "type": "text",
+          "id": "post003",
+          "name": "usage-context",
+          "fill": "$text-ink",
+          "width": "fill_container",
+          "content": "Used for single Blogger posts. It needs a strong article header, metadata, featured image support, readable body content, labels, share links, author area, and related/navigation links.",
+          "fontFamily": "$font-body",
+          "fontSize": 18,
+          "lineHeight": 1.4,
+          "fontWeight": "normal"
+        },
+        {
+          "type": "text",
+          "id": "post004",
+          "name": "pencil-visual-prompt",
+          "fill": "$text-ink",
+          "width": "fill_container",
+          "content": "Prompt: Using root DESIGN.MD as the primary design source and DESIGN.pen as the Pencil component library, create an editable single post page component. Create desktop and mobile frames. Include article title, eyebrow/category, date, author, featured image area, long-form body typography sample, quote/code/image samples if helpful, labels, share affordances, related posts, and previous/next navigation. Keep typography readable and editorial, with generous whitespace and thin rules. Preserve Blogger dynamic content as realistic placeholders. Target code file: src/components/_post_page.hbs.",
+          "fontFamily": "$font-mono",
+          "fontSize": 14,
+          "lineHeight": 1.45,
+          "fontWeight": "normal"
+        },
+        {
+          "type": "text",
+          "id": "postcode",
+          "name": "html-css-code-prompt",
+          "fill": "$text-ink",
+          "width": "fill_container",
+          "content": "Code prompt: Convert this post page design into src/components/_post_page.hbs. Use the current .pen file as the visual source of truth, root DESIGN.MD as the design authority, DESIGN.pen as the component library reference, and tailwind.config.js as the code token source. Generate production-ready Hamlet Builder Handlebars markup with Tailwind CSS classes. Return only the partial markup for src/components/_post_page.hbs. Do not generate React, JSX, CSS Modules, Vue, external CSS frameworks, or unrelated JavaScript. Use semantic HTML and accessible attributes. Preserve Blogger dynamic behavior where relevant with Blogger/Hamlet tags and realistic placeholders only where dynamic data is unavailable. After copying the output into the repo, npm run build must pass.",
+          "fontFamily": "$font-mono",
+          "fontSize": 14,
+          "lineHeight": 1.45,
+          "fontWeight": "normal"
+        }
+      ]
+    }
+  ]
+}

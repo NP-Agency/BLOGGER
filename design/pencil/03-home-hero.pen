@@ -1,0 +1,63 @@
+{
+  "version": "2.11",
+  "children": [
+    {
+      "type": "frame",
+      "id": "hero001",
+      "x": 80,
+      "y": 80,
+      "name": "03 Home Hero - Prompt",
+      "width": 1200,
+      "fill": "#ffffffff",
+      "layout": "vertical",
+      "gap": 16,
+      "padding": 32,
+      "children": [
+        {
+          "type": "text",
+          "id": "hero002",
+          "name": "title",
+          "fill": "#000000",
+          "content": "Home Hero",
+          "lineHeight": 1,
+          "fontFamily": "Inter",
+          "fontSize": 48,
+          "fontWeight": "normal"
+        },
+        {
+          "type": "text",
+          "id": "hero003",
+          "name": "usage-context",
+          "fill": "#000000",
+          "content": "Used at the top of the Blogger homepage or landing view. It introduces the publication with a large editorial headline, short support copy, primary CTA, and optional media/product proof area below.",
+          "lineHeight": 1.4,
+          "fontFamily": "Inter",
+          "fontSize": 18,
+          "fontWeight": "normal"
+        },
+        {
+          "type": "text",
+          "id": "hero004",
+          "name": "pencil-visual-prompt",
+          "fill": "#000000",
+          "content": "Prompt: Using root DESIGN.MD as the primary design source and DESIGN.pen as the Pencil component library, create an editable home-hero component. Reuse typography, button-primary, button-secondary, hero-photo-card, and agent-console-card patterns from DESIGN.pen. Create desktop and mobile frames. The hero should feel like a restrained editorial AI/research publication: white canvas, monumental tight headline, short body text, near-black pill CTA, secondary text link, and a rounded media/product proof composition below or beside the copy. Keep the first viewport focused and leave a hint of the next section. Target code file: src/components/_home_hero.hbs.",
+          "lineHeight": 1.45,
+          "fontFamily": "Inter",
+          "fontSize": 14,
+          "fontWeight": "normal"
+        },
+        {
+          "type": "text",
+          "id": "herocode",
+          "name": "html-css-code-prompt",
+          "fill": "#000000",
+          "content": "Code prompt: Convert this home hero design into src/components/_home_hero.hbs. Use the current .pen file as the visual source of truth, root DESIGN.MD as the design authority, DESIGN.pen as the component library reference, and tailwind.config.js as the code token source. Generate production-ready Hamlet Builder Handlebars markup with Tailwind CSS classes. Return only the partial markup for src/components/_home_hero.hbs. Do not generate React, JSX, CSS Modules, Vue, external CSS frameworks, or unrelated JavaScript. Use semantic HTML and accessible attributes. Preserve Blogger dynamic behavior where relevant with Blogger/Hamlet tags and realistic placeholders only where dynamic data is unavailable. After copying the output into the repo, npm run build must pass.",
+          "lineHeight": 1.45,
+          "fontFamily": "Inter",
+          "fontSize": 14,
+          "fontWeight": "normal"
+        }
+      ]
+    }
+  ]
+}

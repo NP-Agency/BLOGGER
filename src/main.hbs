@@ -1,0 +1,32 @@
+<html>
+<head>
+  <meta expr:charset='data:blog.encoding'/>
+  <meta content='width=device-width, initial-scale=1' name='viewport'/>
+  <title><data:blog.pageTitle/></title>
+  <meta expr:content='data:view.description.escaped' name='description'/>
+  <link expr:href='data:view.url.canonical' rel='canonical'/>
+  <b:skin>
+  <![CDATA[
+    {{asset "dist/css/main.css"}}
+  ]]>
+  </b:skin>
+</head>
+<body class="bg-white text-ink">
+  {{> announcement_bar}}
+  {{> header}}
+  
+  <main>
+    {{> home_hero}}
+    {{> trust_strip}}
+    {{> taxonomy_filters}}
+    {{> blog_feed}}
+    {{> newsletter_cta}}
+  </main>
+
+  {{> footer}}
+  
+  <script>
+    {{asset "dist/js/main.js"}}
+  </script>
+</body>
+</html>

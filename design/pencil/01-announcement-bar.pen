@@ -1,0 +1,71 @@
+{
+  "version": "2.11",
+  "children": [
+    {
+      "type": "frame",
+      "id": "ann001",
+      "x": -177,
+      "y": -192,
+      "name": "01 Announcement Bar - Prompt",
+      "width": 1200,
+      "fill": "#ffffffff",
+      "layout": "vertical",
+      "gap": 16,
+      "padding": 32,
+      "children": [
+        {
+          "type": "text",
+          "id": "ann002",
+          "name": "title",
+          "fill": "#000000",
+          "content": "Announcement Bar",
+          "lineHeight": 1,
+          "fontFamily": "Inter",
+          "fontSize": 48,
+          "fontWeight": "normal"
+        },
+        {
+          "type": "text",
+          "id": "ann003",
+          "name": "usage-context",
+          "fill": "#000000",
+          "content": "Used as an optional full-width strip above the site header for short notices, launch messages, or a highlighted link. It should be compact, high contrast, and easy to dismiss or ignore.",
+          "lineHeight": 1.4,
+          "fontFamily": "Inter",
+          "fontSize": 18,
+          "fontWeight": "normal"
+        },
+        {
+          "type": "text",
+          "id": "ann004",
+          "name": "pencil-visual-prompt",
+          "fill": "#000000",
+          "content": "Prompt: Using root DESIGN.MD as the primary design source and DESIGN.pen as the Pencil component library, create an editable announcement-bar component. Reuse existing button/link/icon components from DESIGN.pen where possible. Create desktop and mobile variants. Use a black or near-black full-width strip, centered concise microcopy, optional underlined link, and a small close affordance on the right. Keep it 36px-44px tall, restrained, accessible, and consistent with the YourSacralGuide editorial system. Target code file: src/components/_announcement_bar.hbs.",
+          "lineHeight": 1.45,
+          "fontFamily": "Inter",
+          "fontSize": 14,
+          "fontWeight": "normal"
+        },
+        {
+          "type": "text",
+          "id": "ann0code",
+          "name": "html-css-code-prompt",
+          "fill": "#000000",
+          "content": "Code prompt: Convert this announcement bar design into src/components/_announcement_bar.hbs. Use the current .pen file as the visual source of truth, root DESIGN.MD as the design authority, DESIGN.pen as the component library reference, and tailwind.config.js as the code token source. Generate production-ready Hamlet Builder Handlebars markup with Tailwind CSS classes. Return only the partial markup for src/components/_announcement_bar.hbs. Do not generate React, JSX, CSS Modules, Vue, external CSS frameworks, or unrelated JavaScript. Use semantic HTML and accessible attributes. Preserve Blogger dynamic behavior where relevant with Blogger/Hamlet tags and realistic placeholders only where dynamic data is unavailable. After copying the output into the repo, npm run build must pass.",
+          "lineHeight": 1.45,
+          "fontFamily": "Inter",
+          "fontSize": 14,
+          "fontWeight": "normal"
+        }
+      ]
+    },
+    {
+      "type": "note",
+      "id": "ssZuD",
+      "x": -251.9551052763801,
+      "y": -761.7347781350451,
+      "width": 577,
+      "height": 219
+    }
+  ]
+}

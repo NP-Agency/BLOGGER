@@ -1,0 +1,67 @@
+{
+  "version": "2.11",
+  "children": [
+    {
+      "type": "frame",
+      "id": "head001",
+      "x": 80,
+      "y": 80,
+      "name": "02 Header Navigation - Prompt",
+      "width": 1200,
+      "fill": "$canvas-white",
+      "layout": "vertical",
+      "gap": 16,
+      "padding": 32,
+      "children": [
+        {
+          "type": "text",
+          "id": "head002",
+          "name": "title",
+          "fill": "$text-ink",
+          "width": "fill_container",
+          "content": "Header Navigation",
+          "fontFamily": "$font-display",
+          "fontSize": 48,
+          "lineHeight": 1,
+          "fontWeight": "normal"
+        },
+        {
+          "type": "text",
+          "id": "head003",
+          "name": "usage-context",
+          "fill": "$text-ink",
+          "width": "fill_container",
+          "content": "Used globally at the top of every Blogger page. It anchors the brand, exposes primary navigation, and provides a compact primary action without stealing attention from article content.",
+          "fontFamily": "$font-body",
+          "fontSize": 18,
+          "lineHeight": 1.4,
+          "fontWeight": "normal"
+        },
+        {
+          "type": "text",
+          "id": "head004",
+          "name": "pencil-visual-prompt",
+          "fill": "$text-ink",
+          "width": "fill_container",
+          "content": "Prompt: Using root DESIGN.MD as the primary design source and DESIGN.pen as the Pencil component library, create an editable global header/navigation component. Reuse button-primary, button-secondary, nav item, and announcement-bar patterns from DESIGN.pen where possible. Create desktop and mobile frames. Desktop should use a three-zone layout: logo left, centered navigation, right-side CTA/action. Mobile should include logo, menu trigger, and an expanded menu state. Use white canvas, near-black text, compact spacing, thin rules, and a pill CTA. Target code file: src/_header.hbs.",
+          "fontFamily": "$font-mono",
+          "fontSize": 14,
+          "lineHeight": 1.45,
+          "fontWeight": "normal"
+        },
+        {
+          "type": "text",
+          "id": "headcode",
+          "name": "html-css-code-prompt",
+          "fill": "$text-ink",
+          "width": "fill_container",
+          "content": "Code prompt: Convert this header navigation design into src/_header.hbs. Use the current .pen file as the visual source of truth, root DESIGN.MD as the design authority, DESIGN.pen as the component library reference, and tailwind.config.js as the code token source. Generate production-ready Hamlet Builder Handlebars markup with Tailwind CSS classes. Return only the partial markup for src/_header.hbs. Do not generate React, JSX, CSS Modules, Vue, external CSS frameworks, or unrelated JavaScript. Use semantic HTML and accessible attributes. Preserve Blogger dynamic behavior where relevant with Blogger/Hamlet tags and realistic placeholders only where dynamic data is unavailable. After copying the output into the repo, npm run build must pass.",
+          "fontFamily": "$font-mono",
+          "fontSize": 14,
+          "lineHeight": 1.45,
+          "fontWeight": "normal"
+        }
+      ]
+    }
+  ]
+}

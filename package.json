@@ -1,0 +1,22 @@
+{
+  "name": "yoursacralguide-theme",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "YourSacralGuide Blogger Theme",
+  "scripts": {
+    "dev": "hamlet --mode development --watch",
+    "start": "hamlet --mode production --watch",
+    "build": "hamlet --mode production",
+    "build:theme": "npm run build && cp dist/main.xml dist/theme.xml",
+    "version:patch": "node scripts/bump-theme-version.mjs patch",
+    "version:minor": "node scripts/bump-theme-version.mjs minor",
+    "version:major": "node scripts/bump-theme-version.mjs major",
+    "release:theme": "npm run build:theme && git status --short"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.19",
+    "hamlet-builder": "^1.0.46",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.3"
+  }
+}
