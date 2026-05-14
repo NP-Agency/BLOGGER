@@ -2,4 +2,197 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Additional custom CSS mapping to DESIGN.MD can go here */
+@layer components {
+  .post-body {
+    color: #212121;
+    font-size: 1.0625rem;
+    line-height: 1.72;
+  }
+
+  .post-body > * {
+    max-width: 46rem;
+  }
+
+  .post-body > *:first-child {
+    margin-top: 0;
+  }
+
+  .post-body > * + * {
+    margin-top: 1.25rem;
+  }
+
+  .post-body p:empty,
+  .post-body h2:empty,
+  .post-body h3:empty {
+    display: none;
+  }
+
+  .post-body p:has(> br:only-child),
+  .post-body h2:has(> br:only-child),
+  .post-body h3:has(> br:only-child) {
+    display: none;
+  }
+
+  .post-body p {
+    color: #212121;
+  }
+
+  .post-body strong {
+    color: #17171c;
+    font-weight: 600;
+  }
+
+  .post-body em {
+    color: #212121;
+  }
+
+  .post-body h2,
+  .post-body h3,
+  .post-body h4 {
+    color: #17171c;
+    font-weight: 400;
+    letter-spacing: 0;
+  }
+
+  .post-body h2 {
+    font-family: YourSacralGuideText, Space Grotesk, Inter, ui-sans-serif, system-ui, sans-serif;
+    font-size: clamp(2rem, 4vw, 3rem);
+    line-height: 1.08;
+    margin-top: 3.5rem;
+  }
+
+  .post-body h3 {
+    font-size: 1.5rem;
+    line-height: 1.22;
+    margin-top: 2.5rem;
+  }
+
+  .post-body h4 {
+    font-size: 1.125rem;
+    line-height: 1.35;
+    margin-top: 2rem;
+  }
+
+  .post-body a {
+    color: #1863dc;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0.22em;
+  }
+
+  .post-body a:hover {
+    color: #17171c;
+  }
+
+  .post-body ul,
+  .post-body ol {
+    padding-left: 1.35rem;
+  }
+
+  .post-body ul {
+    list-style: disc;
+  }
+
+  .post-body ol {
+    list-style: decimal;
+  }
+
+  .post-body li {
+    color: #212121;
+    padding-left: 0.25rem;
+  }
+
+  .post-body li + li {
+    margin-top: 0.5rem;
+  }
+
+  .post-body blockquote {
+    border-left: 2px solid #ff7759;
+    color: #75758a;
+    font-size: 1.25rem;
+    line-height: 1.55;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    padding-left: 1.25rem;
+  }
+
+  .post-body blockquote p {
+    color: inherit;
+  }
+
+  .post-body code {
+    background: #eeece7;
+    border-radius: 4px;
+    color: #17171c;
+    font-family: YourSacralGuideMono, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+    font-size: 0.9em;
+    padding: 0.125rem 0.3rem;
+  }
+
+  .post-body pre {
+    background: #17171c;
+    border-radius: 8px;
+    color: #ffffff;
+    max-width: 100%;
+    overflow-x: auto;
+    padding: 1.25rem;
+  }
+
+  .post-body pre code {
+    background: transparent;
+    color: inherit;
+    display: block;
+    padding: 0;
+  }
+
+  .post-body table {
+    border-collapse: collapse;
+    display: block;
+    font-size: 0.95rem;
+    line-height: 1.45;
+    max-width: 100%;
+    overflow-x: auto;
+    width: 100%;
+  }
+
+  .post-body th,
+  .post-body td {
+    border-bottom: 1px solid #d9d9dd;
+    padding: 0.875rem 1rem;
+    text-align: left;
+    vertical-align: top;
+  }
+
+  .post-body th {
+    color: #17171c;
+    font-weight: 600;
+  }
+
+  .post-body figure {
+    margin-bottom: 2.5rem;
+    margin-top: 2.5rem;
+    max-width: 100%;
+  }
+
+  .post-body img {
+    background: #eeece7;
+    border-radius: 8px;
+    display: block;
+    height: auto;
+    max-width: 100%;
+  }
+
+  .post-body figcaption {
+    color: #75758a;
+    font-size: 0.875rem;
+    line-height: 1.45;
+    margin-top: 0.75rem;
+    max-width: 46rem;
+  }
+
+  .post-body hr {
+    border: 0;
+    border-top: 1px solid #d9d9dd;
+    margin: 3rem 0;
+  }
+}
