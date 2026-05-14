@@ -1,7 +1,66 @@
 {{!-- Pencil source: design/pencil/07-post-page.pen --}}
-{{!-- TODO: Replace with Pencil-generated Blogger/Hamlet + Tailwind markup. --}}
-<article class="bg-white px-4 py-16 text-ink">
-  <div class="mx-auto max-w-3xl">
-    <h1 class="text-5xl font-normal leading-none">Post page placeholder</h1>
+<article class="bg-white text-ink">
+  <header class="border-b border-hairline pb-10">
+    <div class="flex flex-wrap items-center gap-2 text-sm">
+      <b:if cond='data:post.labels'>
+        <b:loop values='data:post.labels' var='label'>
+          <a class="text-coral transition-colors hover:text-actionBlue" expr:href='data:label.url'><data:label.name/></a>
+        </b:loop>
+      <b:else/>
+        <span class="text-coral">Journal</span>
+      </b:if>
+      <span class="text-mutedSlate">/</span>
+      <time class="text-mutedSlate" expr:datetime='data:post.date.iso8601'><data:post.date/></time>
+    </div>
+
+    <h1 class="mt-5 font-display text-5xl font-normal leading-none text-ink sm:text-6xl">
+      <data:post.title/>
+    </h1>
+
+    <div class="mt-5 flex flex-wrap items-center gap-3 text-sm text-slate">
+      <b:if cond='data:post.author'>
+        <span>By <data:post.author.name/></span>
+      </b:if>
+      <b:if cond='data:post.allowComments'>
+        <a class="underline underline-offset-4" expr:href='data:post.commentsUrl'>
+          <data:post.numberOfComments/> comments
+        </a>
+      </b:if>
+    </div>
+  </header>
+
+  <b:if cond='data:post.featuredImage'>
+    <figure class="my-10 overflow-hidden rounded-lg bg-softStone">
+      <b:include name='@image' data='{
+        src: data:post.featuredImage,
+        alt: data:post.title,
+        class: "w-full object-cover",
+        resize: 1200,
+        loading: "eager"
+      }'/>
+    </figure>
+  </b:if>
+
+  <div class="post-body max-w-none text-ink">
+    <data:post.body/>
   </div>
+
+  <footer class="mt-12 border-t border-hairline pt-8">
+    <b:if cond='data:post.labels'>
+      <div class="flex flex-wrap gap-2">
+        <b:loop values='data:post.labels' var='label'>
+          <a class="rounded-full border border-softCoral px-3 py-1 text-sm text-ink transition-colors hover:bg-softCoral/20" expr:href='data:label.url'>
+            <data:label.name/>
+          </a>
+        </b:loop>
+      </div>
+    </b:if>
+
+    <nav class="mt-8 flex flex-wrap items-center justify-between gap-4 text-sm" aria-label="Post actions">
+      <a class="underline underline-offset-4" expr:href='data:blog.homepageUrl'>Back to latest posts</a>
+      <b:if cond='data:post.sharePostUrl'>
+        <a class="underline underline-offset-4" expr:href='data:post.sharePostUrl'>Share this post</a>
+      </b:if>
+    </nav>
+  </footer>
 </article>

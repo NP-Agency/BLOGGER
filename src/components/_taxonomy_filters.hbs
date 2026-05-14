@@ -1,8 +1,15 @@
 {{!-- Pencil source: design/pencil/08-taxonomy-filters.pen --}}
 <nav class="mx-auto flex max-w-7xl flex-wrap gap-3 px-4 py-8 sm:px-6 lg:px-8" aria-label="Post filters">
-  <a class="rounded-xl border border-coral bg-coral px-5 py-2 text-sm text-ink" href="/search">All</a>
-  <a class="rounded-xl border border-softCoral bg-white px-5 py-2 text-sm text-ink transition-colors hover:bg-softCoral/20" href="/search/label/Guides">Guides</a>
-  <a class="rounded-xl border border-softCoral bg-white px-5 py-2 text-sm text-ink transition-colors hover:bg-softCoral/20" href="/search/label/AI">AI workflow</a>
-  <a class="rounded-xl border border-softCoral bg-white px-5 py-2 text-sm text-ink transition-colors hover:bg-softCoral/20" href="/search/label/Research">Research</a>
-  <a class="rounded-xl border border-softCoral bg-white px-5 py-2 text-sm text-ink transition-colors hover:bg-softCoral/20" href="/search/label/Rituals">Rituals</a>
+  <a class="rounded-xl border border-coral bg-coral px-5 py-2 text-sm text-ink" expr:href='data:blog.homepageUrl + "search"'>All</a>
+  <b:section id='taxonomy' maxwidgets='1' showaddelement='yes'>
+    <b:widget id='Label1' locked='false' title='Labels' type='Label' version='2'>
+      <b:includable id='main'>
+        <b:loop values='data:labels' var='label'>
+          <a class="rounded-xl border border-softCoral bg-white px-5 py-2 text-sm text-ink transition-colors hover:bg-softCoral/20" expr:href='data:label.url'>
+            <data:label.name/>
+          </a>
+        </b:loop>
+      </b:includable>
+    </b:widget>
+  </b:section>
 </nav>

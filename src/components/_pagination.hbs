@@ -1,5 +1,14 @@
 {{!-- Pencil source: design/pencil/09-pagination.pen --}}
 <nav class="mt-8 flex items-center justify-between border-t border-hairline py-6" aria-label="Pagination">
-  <a class="text-sm underline underline-offset-4" href="/">Newer posts</a>
-  <a class="text-sm underline underline-offset-4" href="/search?updated-max=2026-01-01T00:00:00Z">Older posts</a>
+  <b:if cond='data:newerPageUrl'>
+    <a class="text-sm underline underline-offset-4" expr:href='data:newerPageUrl'>Newer posts</a>
+  <b:else/>
+    <span class="text-sm text-mutedSlate">Newer posts</span>
+  </b:if>
+
+  <b:if cond='data:olderPageUrl'>
+    <a class="text-sm underline underline-offset-4" expr:href='data:olderPageUrl'>Older posts</a>
+  <b:else/>
+    <span class="text-sm text-mutedSlate">Older posts</span>
+  </b:if>
 </nav>

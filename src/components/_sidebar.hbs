@@ -1,17 +1,56 @@
 {{!-- Pencil source: design/pencil/10-sidebar.pen --}}
 <aside class="space-y-8 text-ink">
-  <section class="border-t border-hairline pt-6">
-    <h2 class="font-mono text-sm uppercase tracking-wide text-mutedSlate">About</h2>
-    <p class="mt-3 text-sm leading-relaxed text-slate">
-      Notes on guidance, attention, and building digital spaces that feel clear instead of noisy.
-    </p>
-  </section>
-  <section class="border-t border-hairline pt-6">
-    <h2 class="font-mono text-sm uppercase tracking-wide text-mutedSlate">Popular labels</h2>
-    <div class="mt-4 flex flex-wrap gap-2">
-      <a class="rounded-full border border-borderLight px-3 py-1 text-sm" href="/search/label/Guides">Guides</a>
-      <a class="rounded-full border border-borderLight px-3 py-1 text-sm" href="/search/label/AI">AI</a>
-      <a class="rounded-full border border-borderLight px-3 py-1 text-sm" href="/search/label/Rituals">Rituals</a>
-    </div>
-  </section>
+  <b:section id='sidebar' class='sidebar-section' preferred='yes' showaddelement='yes'>
+    <b:widget id='Profile1' locked='false' title='About' type='Profile' version='2'>
+      <b:includable id='main'>
+        <section class="border-t border-hairline pt-6">
+          <h2 class="font-mono text-sm uppercase tracking-wide text-mutedSlate"><data:title/></h2>
+          <b:if cond='data:aboutme'>
+            <p class="mt-3 text-sm leading-relaxed text-slate"><data:aboutme/></p>
+          <b:else/>
+            <p class="mt-3 text-sm leading-relaxed text-slate"><data:blog.title/></p>
+          </b:if>
+        </section>
+      </b:includable>
+    </b:widget>
+
+    <b:widget id='Label2' locked='false' title='Popular labels' type='Label' version='2'>
+      <b:includable id='main'>
+        <section class="border-t border-hairline pt-6">
+          <h2 class="font-mono text-sm uppercase tracking-wide text-mutedSlate"><data:title/></h2>
+          <div class="mt-4 flex flex-wrap gap-2">
+            <b:loop values='data:labels' var='label'>
+              <a class="rounded-full border border-borderLight px-3 py-1 text-sm transition-colors hover:border-coral" expr:href='data:label.url'>
+                <data:label.name/>
+              </a>
+            </b:loop>
+          </div>
+        </section>
+      </b:includable>
+    </b:widget>
+
+    <b:widget id='BlogArchive1' locked='false' title='Archive' type='BlogArchive' version='2'>
+      <b:includable id='main'>
+        <section class="border-t border-hairline pt-6">
+          <h2 class="font-mono text-sm uppercase tracking-wide text-mutedSlate"><data:title/></h2>
+          <div class="mt-4 text-sm leading-relaxed text-slate">
+            <b:include data='data' name='flat'/>
+          </div>
+        </section>
+      </b:includable>
+
+      <b:includable id='flat' var='data'>
+        <ul class="space-y-2">
+          <b:loop values='data:data' var='archive'>
+            <li>
+              <a class="transition-colors hover:text-actionBlue" expr:href='data:archive.url'>
+                <data:archive.name/>
+              </a>
+              <span class="text-mutedSlate">(<data:archive.post-count/>)</span>
+            </li>
+          </b:loop>
+        </ul>
+      </b:includable>
+    </b:widget>
+  </b:section>
 </aside>

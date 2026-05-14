@@ -2,28 +2,64 @@
 <section id="latest" class="bg-white px-4 py-16 text-ink sm:px-6 lg:px-8">
   <div class="mx-auto grid max-w-7xl gap-12 lg:grid-cols-[minmax(0,1fr)_320px]">
     <div>
-      <div class="mb-8 flex items-end justify-between gap-6 border-b border-hairline pb-6">
-        <div>
-          <p class="font-mono text-sm uppercase tracking-wide text-coral">Latest</p>
-          <h2 class="mt-2 font-display text-4xl font-normal leading-tight">Journal entries</h2>
-        </div>
-        <a class="hidden text-sm underline underline-offset-4 sm:inline-flex" href="/search">View archive</a>
-      </div>
-
-      <div class="mb-10 grid gap-4 sm:grid-cols-2">
-        {{> post_card}}
-        <article class="border-t border-hairline py-6">
-          <p class="text-sm text-coral">Research</p>
-          <h3 class="mt-2 text-2xl font-normal leading-tight text-ink">How a small design system keeps a Blogger theme coherent.</h3>
-          <p class="mt-3 text-sm leading-relaxed text-slate">A short field note on translating Pencil components into Hamlet partials.</p>
-        </article>
-      </div>
-
       <b:section id='main' class='main-section' maxwidgets='1' showaddelement='yes'>
-        <b:widget id='Blog1' locked='true' title='Blog Posts' type='Blog' version='2'/>
-      </b:section>
+        <b:widget id='Blog1' locked='true' title='Blog Posts' type='Blog' version='2'>
+          <b:includable id='main'>
+            <b:if cond='data:view.isSingleItem'>
+              <b:loop values='data:posts' var='post'>
+                <b:include data='post' name='postPage'/>
+              </b:loop>
+            <b:else/>
+              <div class="mb-8 flex items-end justify-between gap-6 border-b border-hairline pb-6">
+                <div>
+                  <b:if cond='data:view.search.label'>
+                    <p class="font-mono text-sm uppercase tracking-wide text-coral">Label</p>
+                    <h1 class="mt-2 font-display text-4xl font-normal leading-tight"><data:view.search.label/></h1>
+                  <b:elseif cond='data:view.search.query'/>
+                    <p class="font-mono text-sm uppercase tracking-wide text-coral">Search</p>
+                    <h1 class="mt-2 font-display text-4xl font-normal leading-tight">Results for &quot;<data:view.search.query/>&quot;</h1>
+                  <b:elseif cond='data:view.isArchive'/>
+                    <p class="font-mono text-sm uppercase tracking-wide text-coral">Archive</p>
+                    <h1 class="mt-2 font-display text-4xl font-normal leading-tight"><data:blog.pageName/></h1>
+                  <b:else/>
+                    <p class="font-mono text-sm uppercase tracking-wide text-coral">Latest</p>
+                    <h2 class="mt-2 font-display text-4xl font-normal leading-tight">Journal entries</h2>
+                  </b:if>
+                </div>
+                <a class="hidden text-sm underline underline-offset-4 sm:inline-flex" expr:href='data:blog.homepageUrl + "search"'>View archive</a>
+              </div>
 
-      {{> pagination}}
+              <b:if cond='data:posts.empty'>
+                <div class="border-y border-hairline py-12">
+                  <p class="text-lg text-ink">No posts found.</p>
+                  <p class="mt-2 text-sm leading-relaxed text-slate">Try another label, search term, or return to the latest posts.</p>
+                  <a class="mt-6 inline-flex rounded-pill bg-nearBlack px-5 py-2 text-sm font-medium text-white" expr:href='data:blog.homepageUrl'>Back home</a>
+                </div>
+              <b:else/>
+                <div class="grid gap-4">
+                  <b:loop values='data:posts' var='post'>
+                    <b:include data='post' name='postCard'/>
+                  </b:loop>
+                </div>
+
+                <b:include name='blogPager'/>
+              </b:if>
+            </b:if>
+          </b:includable>
+
+          <b:includable id='postCard' var='post'>
+            {{> post_card}}
+          </b:includable>
+
+          <b:includable id='postPage' var='post'>
+            {{> post_page}}
+          </b:includable>
+
+          <b:includable id='blogPager'>
+            {{> pagination}}
+          </b:includable>
+        </b:widget>
+      </b:section>
     </div>
 
     {{> sidebar}}

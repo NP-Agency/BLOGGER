@@ -16,10 +16,17 @@
   {{> header}}
   
   <main>
-    {{> home_hero}}
-    {{> trust_strip}}
-    {{> taxonomy_filters}}
+    <b:if cond='data:view.isHomepage'>
+      {{> home_hero}}
+      {{> trust_strip}}
+    </b:if>
+
+    <b:if cond='!data:view.isSingleItem'>
+      {{> taxonomy_filters}}
+    </b:if>
+
     {{> blog_feed}}
+
     {{> newsletter_cta}}
   </main>
 
