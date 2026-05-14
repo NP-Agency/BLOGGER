@@ -10,33 +10,17 @@
         <span class="text-coral">Journal</span>
       </b:if>
       <span class="text-mutedSlate">/</span>
-      <time class="text-mutedSlate" expr:datetime='data:post.date.iso8601'><data:post.date/></time>
+      <time class="text-mutedSlate" expr:datetime='data:post.timestampISO8601'><data:post.timestamp/></time>
     </div>
 
     <h3 class="mt-2 text-2xl font-normal leading-tight text-ink">
       <a class="transition-colors hover:text-actionBlue" expr:href='data:post.url'><data:post.title/></a>
     </h3>
 
-    <b:if cond='data:post.snippets.short'>
-      <p class="mt-3 text-sm leading-relaxed text-slate">
-        <data:post.snippets.short/>
-      </p>
-    <b:elseif cond='data:post.snippet'/>
+    <b:if cond='data:post.snippet'>
       <p class="mt-3 text-sm leading-relaxed text-slate">
         <data:post.snippet/>
       </p>
     </b:if>
   </div>
-
-  <b:if cond='data:post.featuredImage'>
-    <a class="block overflow-hidden rounded-sm bg-softStone" expr:href='data:post.url' expr:aria-label='data:post.title'>
-      <b:include name='@image' data='{
-        src: data:post.featuredImage,
-        alt: data:post.title,
-        class: "aspect-[4/3] w-full object-cover",
-        resize: 360,
-        loading: "lazy"
-      }'/>
-    </a>
-  </b:if>
 </article>

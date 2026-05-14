@@ -12,38 +12,25 @@
             <b:else/>
               <div class="mb-8 flex items-end justify-between gap-6 border-b border-hairline pb-6">
                 <div>
-                  <b:if cond='data:view.search.label'>
-                    <p class="font-mono text-sm uppercase tracking-wide text-coral">Label</p>
-                    <h1 class="mt-2 font-display text-4xl font-normal leading-tight"><data:view.search.label/></h1>
-                  <b:elseif cond='data:view.search.query'/>
-                    <p class="font-mono text-sm uppercase tracking-wide text-coral">Search</p>
-                    <h1 class="mt-2 font-display text-4xl font-normal leading-tight">Results for &quot;<data:view.search.query/>&quot;</h1>
-                  <b:elseif cond='data:view.isArchive'/>
-                    <p class="font-mono text-sm uppercase tracking-wide text-coral">Archive</p>
-                    <h1 class="mt-2 font-display text-4xl font-normal leading-tight"><data:blog.pageName/></h1>
-                  <b:else/>
-                    <p class="font-mono text-sm uppercase tracking-wide text-coral">Latest</p>
-                    <h2 class="mt-2 font-display text-4xl font-normal leading-tight">Journal entries</h2>
-                  </b:if>
+                  <p class="font-mono text-sm uppercase tracking-wide text-coral">Journal</p>
+                  <h1 class="mt-2 font-display text-4xl font-normal leading-tight">
+                    <b:if cond='data:blog.pageName'>
+                      <data:blog.pageName/>
+                    <b:else/>
+                      Journal entries
+                    </b:if>
+                  </h1>
                 </div>
-                <a class="hidden text-sm underline underline-offset-4 sm:inline-flex" expr:href='data:blog.homepageUrl + "search"'>View archive</a>
+                <a class="hidden text-sm underline underline-offset-4 sm:inline-flex" href="/search">View archive</a>
               </div>
 
-              <b:if cond='data:posts.empty'>
-                <div class="border-y border-hairline py-12">
-                  <p class="text-lg text-ink">No posts found.</p>
-                  <p class="mt-2 text-sm leading-relaxed text-slate">Try another label, search term, or return to the latest posts.</p>
-                  <a class="mt-6 inline-flex rounded-pill bg-nearBlack px-5 py-2 text-sm font-medium text-white" expr:href='data:blog.homepageUrl'>Back home</a>
-                </div>
-              <b:else/>
-                <div class="grid gap-4">
-                  <b:loop values='data:posts' var='post'>
-                    <b:include data='post' name='postCard'/>
-                  </b:loop>
-                </div>
+              <div class="grid gap-4">
+                <b:loop values='data:posts' var='post'>
+                  <b:include data='post' name='postCard'/>
+                </b:loop>
+              </div>
 
-                <b:include name='blogPager'/>
-              </b:if>
+              <b:include name='blogPager'/>
             </b:if>
           </b:includable>
 
