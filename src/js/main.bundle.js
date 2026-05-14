@@ -1,4 +1,38 @@
 (() => {
+  const setPostImageDimensions = () => {
+    document.querySelectorAll('.post-body img').forEach((image) => {
+      const applyDimensions = () => {
+        if (!image.hasAttribute('width')) {
+          if (image.naturalWidth > 0) {
+            image.setAttribute('width', String(image.naturalWidth));
+          }
+        }
+
+        if (!image.hasAttribute('height')) {
+          if (image.naturalHeight > 0) {
+            image.setAttribute('height', String(image.naturalHeight));
+          }
+        }
+
+        if (!image.hasAttribute('loading')) {
+          image.setAttribute('loading', 'lazy');
+        }
+
+        if (!image.hasAttribute('decoding')) {
+          image.setAttribute('decoding', 'async');
+        }
+      };
+
+      if (image.complete) {
+        applyDimensions();
+      } else {
+        image.addEventListener('load', applyDimensions, { once: true });
+      }
+    });
+  };
+
+  setPostImageDimensions();
+
   const header = document.querySelector('[data-site-header]');
 
   if (!header) {

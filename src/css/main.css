@@ -108,7 +108,7 @@
 
   .post-body blockquote {
     border-left: 2px solid #ff7759;
-    color: #75758a;
+    color: #737382;
     font-size: 1.25rem;
     line-height: 1.55;
     margin-bottom: 2rem;
@@ -183,7 +183,7 @@
   }
 
   .post-body figcaption {
-    color: #75758a;
+    color: #737382;
     font-size: 0.875rem;
     line-height: 1.45;
     margin-top: 0.75rem;
@@ -196,6 +196,10 @@
     margin: 3rem 0;
   }
 
+}
+
+.bg-white .text-coral {
+  color: #c94f37;
 }
 
 .cookie-choices-info {

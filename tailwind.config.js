@@ -17,8 +17,8 @@ export default {
         softStone: "#eeece7",
         paleGreen: "#edfce9",
         paleBlue: "#f1f5ff",
-        mutedSlate: "#93939f",
-        slate: "#75758a",
+        mutedSlate: "#70707d",
+        slate: "#737382",
         hairline: "#d9d9dd",
         borderLight: "#e5e7eb"
       },
