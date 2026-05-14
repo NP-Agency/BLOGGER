@@ -54,28 +54,32 @@
     }
   };
 
-  if (megaTrigger && megaMenu) {
-    megaTrigger.addEventListener('click', () => {
-      const isOpen = megaTrigger.getAttribute('aria-expanded') === 'true';
+  if (megaTrigger) {
+    if (megaMenu) {
+      megaTrigger.addEventListener('click', () => {
+        const isOpen = megaTrigger.getAttribute('aria-expanded') === 'true';
 
-      if (isOpen) {
-        closeMega();
-      } else {
-        openMega();
-      }
-    });
+        if (isOpen) {
+          closeMega();
+        } else {
+          openMega();
+        }
+      });
+    }
   }
 
-  if (mobileTrigger && mobileMenu) {
-    mobileTrigger.addEventListener('click', () => {
-      const isOpen = mobileTrigger.getAttribute('aria-expanded') === 'true';
+  if (mobileTrigger) {
+    if (mobileMenu) {
+      mobileTrigger.addEventListener('click', () => {
+        const isOpen = mobileTrigger.getAttribute('aria-expanded') === 'true';
 
-      if (isOpen) {
-        closeMobile();
-      } else {
-        openMobile();
-      }
-    });
+        if (isOpen) {
+          closeMobile();
+        } else {
+          openMobile();
+        }
+      });
+    }
   }
 
   document.addEventListener('click', (event) => {
